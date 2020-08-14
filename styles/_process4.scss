@@ -1,0 +1,63 @@
+#process4 {
+    height: 65vh;
+    width: 100%;
+    background: #fff url('../assets/wave8.svg') top right no-repeat;
+}
+
+.process4-container {
+    height: 100%;
+    display: flex;
+}
+
+.process4-content-wrapp {
+    flex: 1;
+    height: 100%;
+}
+
+.process4-svg-wrapp {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    svg {
+        position: absolute;
+        max-height: 550px;
+        right: 0px;
+    }
+}
+
+.process4-heading-wrapp {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.process4-heading-line {
+    height: 30px;
+    width: 100px;
+    background: $purple;
+    position: absolute;
+    border-radius: 25px;
+    margin-bottom: 6vh;
+}
+
+.process4-heading {
+    font-size: 42px;
+    text-transform: capitalize;
+}
+
+.process4-content {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.process4-txt {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+}

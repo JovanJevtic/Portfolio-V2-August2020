@@ -1,0 +1,67 @@
+#process2 {
+    height: 70vh;
+    width: 100%;
+    background: #fafafa url('../assets/wave7.svg') top right no-repeat;
+}
+
+.process2-container {
+    height: 100%;
+    display: flex;
+}
+
+.process2-content-wrapp {
+    flex: 1;
+    height: 100%;
+}
+
+.process2-svg-wrapp {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    svg {
+        position: absolute;
+        max-height: 450px;
+        max-width: 600px;
+        right: 100px;
+    }
+}
+
+.process2-heading-wrapp {
+    height: 27vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.process2-content {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.process2-heading-line {
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    background: $purple;
+    border-radius: 25px;
+    margin-bottom: 6vh;
+}
+
+.process2-heading {
+    font-size: 42px;
+    position: absolute;
+    text-transform: capitalize;
+}
+
+.process2-txt {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 15vh;
+}

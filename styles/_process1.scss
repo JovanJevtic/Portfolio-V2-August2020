@@ -1,0 +1,102 @@
+#process1 {
+    height: 125vh;
+    width: 100%;
+    background: #fafafa url('../assets/wave6.svg') top left no-repeat;
+}
+
+.process1-container {
+    height: 100%;
+    display: flex;
+}
+
+.process1-svg-wrapp {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        position: absolute;
+        max-width: 600px;
+        left: 200px;
+    }
+}
+
+.process1-wrapp {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.process1-content-wrapp1 {
+    flex: 5;
+}
+
+.process1-content-wrapp2 {
+    flex: 6;
+}
+
+.process1-heading-wrapp {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.process1-heading-wrapp2 {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.process1-heading-line {
+    height: 30px;
+    width: 100px;
+    background: $purple;
+    border-radius: 25px;
+}
+
+.process1-heading {
+    margin-top: 1vh;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+
+.process1-content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.process1-content2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.process1-txt {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+    margin-top: 10vh;
+}   
+
+.process1-txt2 {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 5vh;
+}
+
+.process1-contact-btn {
+    position: absolute;
+    margin-top: 37vh;
+}

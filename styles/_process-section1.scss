@@ -1,0 +1,61 @@
+#process-section1 {
+    height: 100vh;
+    width: 100%;
+    background: #fafafa url('../assets/wave5.svg') top no-repeat;
+}
+
+.process-section1-container {
+    height: 100%;
+}
+
+.process-section1-heading-container {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.process-section1-heading-wrapp {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .contact-btn {
+        position: absolute;
+        margin-top: 30vh;
+        height: 50px;
+        width: 160px;
+        font-size: 18px;
+    }
+
+    .contact-btn:hover {
+        background: #fff;
+        border: 5px solid $red;
+        color: #000;
+        transition: 0.4s;
+    }
+}
+
+.process-section1-heading-line {
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    background: $purple;
+    border-radius: 20px;
+}
+
+.process-section1-heading {
+    position: absolute;
+    font-size: 42px;
+    margin-top: 5vh;    
+}
+
+.process-section1-intro {
+    position: absolute;
+    margin-top: 18vh;
+    font-size: 18px;
+    line-height: 35px;
+    max-width: 40%;
+}

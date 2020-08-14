@@ -1,0 +1,100 @@
+#skills {
+    height: 100vh;
+    width: 100%;
+    background:  url('../assets/wave3.svg') top no-repeat;
+}
+
+.skills-wrapp {
+    height: 70vh;
+    width: 100%;
+    margin-top: 30vh;
+    position: absolute;
+    background: #fafafa;
+}  
+
+.skills-container {
+    height: 100%;
+}
+
+.skills-heading-wrapp {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    //flex-direction: column;
+    justify-content: flex-end;
+}
+
+.skills-heading-line {
+    height: 30px;
+    width: 100px;
+    background: $purple;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.skills-heading {
+    position: absolute;
+    margin-top: 5vh;
+    font-size: 42px;
+}
+
+.skills-display-container {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-display-wrapp {
+    height: 35vh;
+    width: 90%;
+}
+
+.skills-display-label-wrapp {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-display {
+    height: 20vh;
+    width: 100%;
+    bottom: 0;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.skills-display-label {
+    font-size: 20px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg, $purple, $red);
+    //background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-card {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    i {
+        font-size: 48px;
+        color: #ccc;
+    }
+}
+
+.skill-card:hover {
+    i {
+        color: $purple;
+        transition: 0.4s;
+        margin-bottom: 20px;
+    }
+}

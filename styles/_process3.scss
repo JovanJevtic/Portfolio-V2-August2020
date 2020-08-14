@@ -1,0 +1,65 @@
+#process3 {
+    height: 75vh;
+    width: 100%;
+    background: #fff;
+    //background: $purple;
+}
+
+.process3-container {
+    height: 100%;
+    display: flex;
+}
+
+.process3-svg-wrapp {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start                                         ;
+    align-items: center;
+    
+    .process3-svg {
+        height: 425px;
+        position: absolute;
+        left: 100px;
+    }
+}
+
+.process3-content-wrapp {
+    flex: 1;
+}
+
+.process3-heading-wrapp {
+    height: 27vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.process3-heading-line {
+    height: 30px;
+    width: 100px;
+    background: $purple;
+    position: absolute;
+    border-radius: 25px;
+    margin-bottom: 5.5vh;
+}
+
+.process3-heading {
+    position: absolute;
+    font-size: 42px;
+}
+
+.process3-content {
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 10vh;
+}
+
+.process3-txt {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+}

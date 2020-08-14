@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Galada&family=Poppins&display=swap');
+
+@import './varialbes';
+@import './header';
+@import './landing';
+@import './about';
+@import './work';
+@import './skills';
+@import './process';
+@import './process-line';
+@import './process-section1';
+@import './process1';
+@import './process2';
+@import './process3';
+@import './process4';
+@import './process5';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    //overflow-x: hidden;
+}
+
+::selection {
+    background: $purple;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+#page-wrapp {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+@media (min-width: 921px) and (max-width: 1400px) {
+    .container {
+        width: 780px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 920px) {
+    .container {
+        width: 480px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 350px;
+        margin: auto;
+    }
+}

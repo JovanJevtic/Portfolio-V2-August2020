@@ -1,0 +1,74 @@
+#process {
+    height: 100vh;
+    width: 100%;
+    background: $purple;
+}
+
+.process-container {
+    height: 100%;
+}
+
+.process-heading-wrapp {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.process-heading {
+    color: #fff;
+    font-size: 52px;
+}
+
+.process-content-wrapp {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+}
+
+.process-content {
+    flex: 1;
+
+}
+
+.process-svg-wrapp {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    svg {
+        position: absolute;
+        max-width: 700px;
+        max-height: 600px;
+        right: 150px;
+    }
+}
+
+.process-intro {
+    margin-top: 10vh;
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.process-heading2 {
+    margin-top: 12vh;
+    color: #fff;    
+    font-size: 42px;
+}
+
+.contact-btn {
+    height: 55px;
+    width: 220px;
+    background: $red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 7vh;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}

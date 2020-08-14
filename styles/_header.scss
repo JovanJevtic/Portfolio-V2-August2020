@@ -1,0 +1,176 @@
+.header {
+    height: 10vh;
+    min-height: 100px;
+    box-shadow: 0 0 10px 10px 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 5000;
+    background: #fff;
+    //box-shadow: 0 0 5px #ccc;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.logo-wrapp {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    //font-family: 'Galada', cursive;
+}
+
+.nav-wrapp {
+    flex: 3;
+}
+
+.nav-list {
+    height: 10vh;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid $red;
+    background: $red;
+    color: #fff;
+}
+
+.nav-btn:hover {
+    background: $red;   
+    color: #fff;
+    transition: 0.4s;
+}
+
+
+
+@media (min-width: 921px) and (max-width: 1400px) {
+    .header {
+        height: 10vh;
+        background: #fff;
+        box-shadow: 0 0 10px 10px 10px;
+        width: 100%;
+        position: fixed;
+    }
+
+    .nav-container {
+        display: flex;
+    }
+
+    .logo-wrapp {
+        flex: 2;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        //font-family: 'Galada', cursive;
+    }
+
+    .nav-wrapp {
+        flex: 3;
+    }
+
+    .nav-list {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-btn {
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid $red;
+    }
+
+    .nav-btn:hover {
+        background: $red;   
+        color: #fff;
+        transition: 0.4s;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .header {
+        height: 10vh;
+        background: #fff;
+        box-shadow: 0 0 10px    ;
+        width: 100%;
+        position: fixed;
+    }
+
+    .nav-container {
+        display: flex;
+    }
+
+    .logo-wrapp {
+        flex: 1;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        //font-family: 'Galada', cursive;
+    }
+
+    .nav-wrapp {
+        flex: 0;
+        display: none;
+    }
+
+    .nav-list {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-btn {
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid $red;
+    }
+
+    .nav-btn:hover {
+        background: $red;   
+        color: #fff;
+        transition: 0.4s;
+    }
+}
