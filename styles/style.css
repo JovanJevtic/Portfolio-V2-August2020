@@ -2606,7 +2606,8 @@
 #process5 {
   height: 100vh;
   width: 100%;
-  background: #4a00fb;
+  background: #4a00fb url("../assets/wave13.svg") bottom right no-repeat;
+  color: #fff;
 }
 
 .process5-container {
@@ -2614,6 +2615,159 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.process5-svg-wrapp {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.process5-svg-wrapp svg {
+  position: absolute;
+  left: 150px;
+  max-width: 550px;
+}
+
+.process5-txt-wrapp {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.process5-txt-section1, .process5-txt-section2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.process5-txt-heading-wrapp {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.process5-txt-heading-wrapp h1 {
+  font-size: 42px;
+}
+
+.process5-txt-content-wrapp {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.process5-txt-content-wrapp p {
+  font-size: 18px;
+  text-align: end;
+  line-height: 30px;
+}
+
+.process5-heading-line {
+  height: 30px;
+  width: 100px;
+  background: #fff;
+  border-radius: 25px;
+  position: absolute;
+  margin-bottom: 6vh;
+}
+
+.process5-txt-heading-wrapp2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.process5-subheading {
+  font-size: 30px;
+  color: #000;
+}
+
+.process5-skills-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.process5-skills-container {
+  height: 90%;
+  width: 90%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.process5-skill-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bold;
+  color: #000;
+}
+
+.process5-skill-card:hover {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px #CCC;
+          box-shadow: 0px 0px 5px #CCC;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 * {
