@@ -1,0 +1,51 @@
+#Rocket {
+    animation: Rocket-animation 2s ease-in-out infinite;
+}
+
+#Stars {
+    animation: Stars-animation 40s ease infinite;
+    transform-origin: center;
+}
+
+#Clouds {
+    animation: Clouds-animation 4s ease-in-out infinite;     
+}
+
+@keyframes Rocket-animation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-45px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes Clouds-animation {
+    0% {
+        transform: translateY(0px);
+    }
+    40% {
+        transform: translateY(-15px);   
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes Stars-animation {
+    0%{
+        transform: translateY(0px);
+        //transform: rotateZ(0deg);
+    }
+    30%{
+        transform: translateY(100px);
+        //transform: rotateZ(45deg);
+    }
+    100% {
+        transform: translateY(0px);
+       //        transform: rotateZ(0deg);
+    }
+}
