@@ -16,7 +16,8 @@
 @import './process5';
 @import './contact';
 @import './footer';
-@import './animations';
+@import './svgAnimations';
+@import './txtAnimations';
 
 * {
     margin: 0;
@@ -27,7 +28,7 @@
 
 html {
     scroll-behavior: smooth;
-    //overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 ::selection {

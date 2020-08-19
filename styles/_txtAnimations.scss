@@ -1,0 +1,177 @@
+.title {
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.heading {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.subheading {
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.landing-btn-wrapp {
+    transform: translateY(25px);
+    opacity: 0;
+}
+
+.about-heading {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.about-txt {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+#about-supply {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.about-skill {
+    transform: translateX(-70px);
+    opacity: 0;
+}
+
+.about-skill1 {
+    transform: translateX(-250px);
+}     
+
+.about-skill2 {
+    transform: translateX(-200px);
+}   
+
+.about-skill3 {
+    transform: translateX(-150px);
+}   
+
+.work-heading {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.work-subheading {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.work-subheading-animated {
+    transform: translateY(-30px);
+    opacity: 1;
+    transition: 1s;
+}
+
+.work-card {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.work-card1 {
+    transform: translateX(-200px);
+}
+
+.work-card2 {
+    transform: translateX(-300px);
+}
+
+.work-card3 {
+    transform: translateX(-400px);
+}
+
+.work-card4 {
+    transform: translateX(200px);
+}
+
+.work-card5 {
+    transform: translateX(300px);
+}
+
+.work-card6 {
+    transform: translateX(400px);
+}
+
+.process-heading, .process-intro, .process-heading2, .contact-btn {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.process1-heading, .process1-txt, .process1-heading2, .process1-txt2 {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.process2-heading, .process2-txt {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.process3-heading, .process3-txt {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.process4-heading, .process4-txt {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.process5-heading, .process5-txt, .process5-subheading {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.contact-info-heading {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.contact-info-row-heading {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+.contact-info-row-heading1 {
+    transform: translateX(-50px);
+}
+
+.contact-info-row-heading2 {
+    transform: translateX(-100px);
+}
+
+.contact-info-row-heading3 {
+    transform: translateX(-150px);
+}
+
+.contact-info-row-heading4 {
+    transform: translateX(-200px);
+}
+
+.contact-info-row-heading5 {
+    transform: translateX(-250px);
+}
+
+.contact-info-row-heading6 {
+    transform: translateX(-300px);
+}
+
+.contact-info-row-link {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+.animated {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 1s;
+}
+
+.animated-horizontal {
+    transform: translateX(0px);
+    opacity: 1;
+    transition: 1s;
+}

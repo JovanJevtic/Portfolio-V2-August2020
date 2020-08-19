@@ -3,7 +3,7 @@
 }
 
 #Stars {
-    animation: Stars-animation 40s ease infinite;
+    animation: Stars-animation 60s ease infinite;
     transform-origin: center;
 }
 
@@ -16,7 +16,7 @@
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-45px);
+        transform: translateY(-35px);
     }
     100% {
         transform: translateY(0px);
@@ -28,7 +28,7 @@
         transform: translateY(0px);
     }
     40% {
-        transform: translateY(-15px);   
+        transform: translateY(-15px); 
     }
     100% {
         transform: translateY(0px);
@@ -38,14 +38,16 @@
 @keyframes Stars-animation {
     0%{
         transform: translateY(0px);
-        //transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
     }
     30%{
         transform: translateY(100px);
-        //transform: rotateZ(45deg);
+        transform: rotateZ(30deg);
     }
-    100% {
-        transform: translateY(0px);
-       //        transform: rotateZ(0deg);
+    60% {
+        transform: rotateZ(-30deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
     }
 }
