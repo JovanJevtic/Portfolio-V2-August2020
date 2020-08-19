@@ -9,17 +9,17 @@
 }
 
 .subheading {
-    transform: translateY(20px);
+    transform: translateY(40px);
     opacity: 0;
 }
 
 .landing-btn-wrapp {
-    transform: translateY(25px);
+    transform: translateX(-50px);
     opacity: 0;
 }
 
 .about-heading {
-    transform: translateY(30px);
+    transform: translateX(50px);
     opacity: 0;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .work-subheading-animated {
-    transform: translateY(-30px);
+    transform: translateY(-10px);
     opacity: 1;
     transition: 1s;
 }
@@ -100,27 +100,37 @@
     opacity: 0;
 }
 
-.process1-heading, .process1-txt, .process1-heading2, .process1-txt2 {
+.process1-txt, .process1-heading2, .process1-txt2 {
     transform: translateY(30px);
     opacity: 0;
 }
 
-.process2-heading, .process2-txt {
+.process1-heading, .process3-heading, .process5-heading {
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.process2-heading, .process4-heading {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.process2-txt {
     transform: translateY(30px);
     opacity: 0;
 }
 
-.process3-heading, .process3-txt {
+.process3-txt {
     transform: translateY(30px);
     opacity: 0;
 }
 
-.process4-heading, .process4-txt {
+.process4-txt {
     transform: translateY(30px);
     opacity: 0;
 }
 
-.process5-heading, .process5-txt, .process5-subheading {
+.process5-txt, .process5-subheading {
     transform: translateY(30px);
     opacity: 0;
 }
@@ -131,33 +141,33 @@
 }
 
 .contact-info-row-heading {
-    transform: translateX(-30px);
+    transform: translateY(30px);
     opacity: 0;
 }
 
-.contact-info-row-heading1 {
-    transform: translateX(-50px);
-}
+// .contact-info-row-heading1 {
+//     transform: translateY(-20px);
+// }
 
-.contact-info-row-heading2 {
-    transform: translateX(-100px);
-}
+// .contact-info-row-heading2 {
+//     transform: translateY(-40px);
+// }
 
-.contact-info-row-heading3 {
-    transform: translateX(-150px);
-}
+// .contact-info-row-heading3 {
+//     transform: translateY(-60px);
+// }
 
-.contact-info-row-heading4 {
-    transform: translateX(-200px);
-}
+// .contact-info-row-heading4 {
+//     transform: translateY(-80px);
+// }
 
-.contact-info-row-heading5 {
-    transform: translateX(-250px);
-}
+// .contact-info-row-heading5 {
+//     transform: translateY(-100px);
+// }
 
-.contact-info-row-heading6 {
-    transform: translateX(-300px);
-}
+// .contact-info-row-heading6 {
+//     transform: translateY(-120px);
+// }
 
 .contact-info-row-link {
     transform: translateX(-30px);

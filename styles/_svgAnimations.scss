@@ -7,16 +7,16 @@
     transform-origin: center;
 }
 
-#Clouds {
-    animation: Clouds-animation 4s ease-in-out infinite;     
-}
+// #Clouds {
+//     animation: Clouds-animation 4s ease-in-out infinite;     
+// }
 
 @keyframes Rocket-animation {
     0% {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-35px);
+        transform: translateY(-10px);
     }
     100% {
         transform: translateY(0px);
@@ -42,10 +42,10 @@
     }
     30%{
         transform: translateY(100px);
-        transform: rotateZ(30deg);
+        transform: rotateZ(15deg);
     }
-    60% {
-        transform: rotateZ(-30deg);
+    80% {
+        transform: rotateZ(-15deg);
     }
     100%{
         transform: rotateZ(0deg);

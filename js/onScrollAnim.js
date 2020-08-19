@@ -6,7 +6,7 @@ export default function animate () {
         const aboutHeadingPosition = aboutHeading.getBoundingClientRect().top;
     
         if (aboutHeadingPosition < screenPosition) {
-            aboutHeading.classList.add('animated')
+            aboutHeading.classList.add('animated-horizontal')
         }
 
         const aboutTxt = document.querySelector('.about-txt');
@@ -83,7 +83,7 @@ export default function animate () {
         const process1HeadingPosition = process1Heading.getBoundingClientRect().top;
     
         if (process1HeadingPosition < screenPosition) {
-            process1Heading.classList.add('animated')
+            process1Heading.classList.add('animated-horizontal')
         }
 
         const process1Txt = document.querySelector('.process1-txt');
@@ -188,7 +188,7 @@ export default function animate () {
             const contactInfoRowHeadingPosition = contactInfoRowHeading.getBoundingClientRect().top;
 
             if (contactInfoRowHeadingPosition < screenPosition) {
-                contactInfoRowHeading.classList.add('animated-horizontal')
+                contactInfoRowHeading.classList.add('animated')
             }
         });
 

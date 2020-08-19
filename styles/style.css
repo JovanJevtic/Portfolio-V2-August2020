@@ -1581,6 +1581,7 @@
 .work-card {
   width: 370px;
   height: 350px;
+  border: 1px solid #ccc;
 }
 
 .work-card1 {
@@ -1813,7 +1814,7 @@
 }
 
 .skills-display-label-wrapp {
-  height: 12vh;
+  height: 10vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1828,7 +1829,7 @@
 }
 
 .skills-display {
-  height: 13vh;
+  height: 10vh;
   width: 100%;
   bottom: 0;
   background: #fff;
@@ -1864,14 +1865,14 @@
 
 .skill-card i {
   font-size: 34px;
-  color: #ccc;
+  color: #4a00fb;
 }
 
 .skill-card:hover i {
   color: #4a00fb;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 15px;
 }
 
 #process {
@@ -2297,7 +2298,7 @@
 }
 
 #process2 {
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   background: #fafafa url("../assets/wave7.svg") top right no-repeat;
 }
@@ -2345,9 +2346,9 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .process2-content {
@@ -2359,9 +2360,9 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .process2-heading-line {
@@ -2370,7 +2371,7 @@
   width: 100px;
   background: #4a00fb;
   border-radius: 25px;
-  margin-bottom: 6vh;
+  margin-bottom: 9vh;
 }
 
 .process2-heading {
@@ -2383,7 +2384,7 @@
   font-size: 20px;
   line-height: 35px;
   text-align: left;
-  margin-top: 15vh;
+  margin-top: 0vh;
 }
 
 #process3 {
@@ -2664,6 +2665,7 @@
   border-radius: 25px;
   position: absolute;
   margin-bottom: 6vh;
+  display: none;
 }
 
 .process5-txt-heading-wrapp2 {
@@ -3090,19 +3092,14 @@ input:required, textarea:required {
           transform-origin: center;
 }
 
-#Clouds {
-  -webkit-animation: Clouds-animation 4s ease-in-out infinite;
-          animation: Clouds-animation 4s ease-in-out infinite;
-}
-
 @-webkit-keyframes Rocket-animation {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
   50% {
-    -webkit-transform: translateY(-35px);
-            transform: translateY(-35px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
   100% {
     -webkit-transform: translateY(0px);
@@ -3116,8 +3113,8 @@ input:required, textarea:required {
             transform: translateY(0px);
   }
   50% {
-    -webkit-transform: translateY(-35px);
-            transform: translateY(-35px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
   100% {
     -webkit-transform: translateY(0px);
@@ -3165,12 +3162,12 @@ input:required, textarea:required {
   30% {
     -webkit-transform: translateY(100px);
             transform: translateY(100px);
-    -webkit-transform: rotateZ(30deg);
-            transform: rotateZ(30deg);
+    -webkit-transform: rotateZ(15deg);
+            transform: rotateZ(15deg);
   }
-  60% {
-    -webkit-transform: rotateZ(-30deg);
-            transform: rotateZ(-30deg);
+  80% {
+    -webkit-transform: rotateZ(-15deg);
+            transform: rotateZ(-15deg);
   }
   100% {
     -webkit-transform: rotateZ(0deg);
@@ -3188,12 +3185,12 @@ input:required, textarea:required {
   30% {
     -webkit-transform: translateY(100px);
             transform: translateY(100px);
-    -webkit-transform: rotateZ(30deg);
-            transform: rotateZ(30deg);
+    -webkit-transform: rotateZ(15deg);
+            transform: rotateZ(15deg);
   }
-  60% {
-    -webkit-transform: rotateZ(-30deg);
-            transform: rotateZ(-30deg);
+  80% {
+    -webkit-transform: rotateZ(-15deg);
+            transform: rotateZ(-15deg);
   }
   100% {
     -webkit-transform: rotateZ(0deg);
@@ -3214,20 +3211,20 @@ input:required, textarea:required {
 }
 
 .subheading {
-  -webkit-transform: translateY(20px);
-          transform: translateY(20px);
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
   opacity: 0;
 }
 
 .landing-btn-wrapp {
-  -webkit-transform: translateY(25px);
-          transform: translateY(25px);
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
   opacity: 0;
 }
 
 .about-heading {
-  -webkit-transform: translateY(30px);
-          transform: translateY(30px);
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
   opacity: 0;
 }
 
@@ -3277,8 +3274,8 @@ input:required, textarea:required {
 }
 
 .work-subheading-animated {
-  -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
   opacity: 1;
   -webkit-transition: 1s;
   transition: 1s;
@@ -3326,31 +3323,43 @@ input:required, textarea:required {
   opacity: 0;
 }
 
-.process1-heading, .process1-txt, .process1-heading2, .process1-txt2 {
+.process1-txt, .process1-heading2, .process1-txt2 {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
   opacity: 0;
 }
 
-.process2-heading, .process2-txt {
+.process1-heading, .process3-heading, .process5-heading {
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+  opacity: 0;
+}
+
+.process2-heading, .process4-heading {
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  opacity: 0;
+}
+
+.process2-txt {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
   opacity: 0;
 }
 
-.process3-heading, .process3-txt {
+.process3-txt {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
   opacity: 0;
 }
 
-.process4-heading, .process4-txt {
+.process4-txt {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
   opacity: 0;
 }
 
-.process5-heading, .process5-txt, .process5-subheading {
+.process5-txt, .process5-subheading {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
   opacity: 0;
@@ -3363,39 +3372,9 @@ input:required, textarea:required {
 }
 
 .contact-info-row-heading {
-  -webkit-transform: translateX(-30px);
-          transform: translateX(-30px);
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
   opacity: 0;
-}
-
-.contact-info-row-heading1 {
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
-}
-
-.contact-info-row-heading2 {
-  -webkit-transform: translateX(-100px);
-          transform: translateX(-100px);
-}
-
-.contact-info-row-heading3 {
-  -webkit-transform: translateX(-150px);
-          transform: translateX(-150px);
-}
-
-.contact-info-row-heading4 {
-  -webkit-transform: translateX(-200px);
-          transform: translateX(-200px);
-}
-
-.contact-info-row-heading5 {
-  -webkit-transform: translateX(-250px);
-          transform: translateX(-250px);
-}
-
-.contact-info-row-heading6 {
-  -webkit-transform: translateX(-300px);
-          transform: translateX(-300px);
 }
 
 .contact-info-row-link {

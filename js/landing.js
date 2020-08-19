@@ -22,8 +22,8 @@ export default function animateLanding (){
     
     const animateLandingBtn = () => {
         const btn = document.querySelector('.landing-btn-wrapp');
-        btn.classList.add('animated')
+        btn.classList.add('animated-horizontal')
     }
     
-    setTimeout(animateLandingBtn, 1200)
+    setTimeout(animateLandingBtn, 1000)
 }
