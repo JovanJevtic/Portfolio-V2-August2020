@@ -3089,18 +3089,6 @@ input:required, textarea:required {
   font-weight: bold;
 }
 
-#Rocket {
-  -webkit-animation: Rocket-animation 2s ease-in-out infinite;
-          animation: Rocket-animation 2s ease-in-out infinite;
-}
-
-#Stars {
-  -webkit-animation: Stars-animation 60s ease infinite;
-          animation: Stars-animation 60s ease infinite;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-}
-
 @-webkit-keyframes Rocket-animation {
   0% {
     -webkit-transform: translateY(0px);
