@@ -137,6 +137,7 @@
     grid-template-rows: 1fr 1fr;
     /*grid-row-gap: 10px;
     grid-column-gap: 10px;*/
+    grid-row-gap: 10px;
 }
 
 .work-card {
@@ -144,6 +145,7 @@
     width: 370px;
     height: 350px;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .work-card1 {
@@ -219,16 +221,22 @@
         .work-card-title {
             transition: 1.25s;
             transform: translateY(0);
+            color: #000;
         }
 
         .work-card-link {
             transition: 1.25s;
             transform: translateY(0);
+
+            &:hover {
+                box-shadow: 0px 0px 3px #ac083f;
+            }
         }
 
         .work-card-txt {
             transition: 0.8s;
             transform: translateY(0);
+            color: #000;
         }
     }
 }
@@ -237,13 +245,14 @@
     height: 100%;
     width: 100%;
     background: #fafafa;
-    background: $purple;
+    //background: $purple;
     opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform: translateY(-25px);
+    //transform: translateY(-25px);
+    border-radius: 5px;
 }
 
 .work-card-content-section1 {
@@ -284,6 +293,8 @@
     font-weight: bold;
     color: #fff;
     transform: translateY(50px);
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .work-card-link:hover {
