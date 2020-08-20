@@ -2,7 +2,7 @@ const popup = () => {
     const modalWrapp = document.querySelector('.modal-wrapp');
     const modal = document.querySelector('.modal');
     const page = document.querySelector('#page-wrapp');
-    const close = document.querySelector('.modal-close');
+    const closeBtn = document.querySelectorAll('.modal-close');
 
     const modal1 = document.querySelector('.modal1');
     const modal2 = document.querySelector('.modal2');
@@ -22,10 +22,10 @@ const popup = () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal1.classList.add('modal-visible');
 
-        close.addEventListener('click', () => {
+        closeBtn[0].onclick = () => {
           modalWrapp.classList.remove('modal-wrapp-visible');
           modal1.classList.remove('modal-visible');
-        });
+        }
 
         window.onclick = function(event) {
           if (event.target == modalWrapp) {
@@ -39,10 +39,10 @@ const popup = () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal2.classList.add('modal-visible');
 
-        close.addEventListener('click', () => {
+        closeBtn[1].onclick = () => {
           modalWrapp.classList.remove('modal-wrapp-visible');
-          modal1.classList.remove('modal-visible');
-        });
+          modal2.classList.remove('modal-visible');
+        }
 
         window.onclick = function(event) {
             if (event.target == modalWrapp) {
@@ -56,10 +56,10 @@ const popup = () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal3.classList.add('modal-visible');
 
-        close.addEventListener('click', () => {
+        closeBtn[2].onclick = () => {
           modalWrapp.classList.remove('modal-wrapp-visible');
-          modal1.classList.remove('modal-visible');
-        });
+          modal3.classList.remove('modal-visible');
+        }
 
         window.onclick = function(event) {
           if (event.target == modalWrapp) {
@@ -73,10 +73,10 @@ const popup = () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal4.classList.add('modal-visible');
 
-        close.addEventListener('click', () => {
+        closeBtn[3].onclick = () => {
           modalWrapp.classList.remove('modal-wrapp-visible');
-          modal1.classList.remove('modal-visible');
-        });
+          modal4.classList.remove('modal-visible');
+        }
 
         window.onclick = function(event) {
             if (event.target == modalWrapp) {
@@ -90,10 +90,10 @@ const popup = () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal5.classList.add('modal-visible');
 
-        close.addEventListener('click', () => {
+        closeBtn[4].onclick = () => {
           modalWrapp.classList.remove('modal-wrapp-visible');
-          modal1.classList.remove('modal-visible');
-        });
+          modal5.classList.remove('modal-visible');
+        }
 
         window.onclick = function(event) {
             if (event.target == modalWrapp) {
@@ -107,12 +107,13 @@ const popup = () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal6.classList.add('modal-visible');
 
-        close.addEventListener('click', () => {
+        closeBtn[5].onclick = () => {
           modalWrapp.classList.remove('modal-wrapp-visible');
-          modal1.classList.remove('modal-visible');
-        });
+          modal6.classList.remove('modal-visible');
+        }
 
         window.onclick = function(event) {
+          console.log(event.target)
             if (event.target == modalWrapp) {
               modalWrapp.classList.remove('modal-wrapp-visible');
               modal6.classList.remove('modal-visible');
