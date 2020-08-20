@@ -1,0 +1,50 @@
+.modal-wrapp {
+    width: 100%;
+    margin-top: 10vh;
+    height: 90vh;
+    position: fixed;    
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    display: none;
+}   
+
+.modal-wrapp-visible {
+    display: flex;
+}
+
+.modal {
+    height: 80%;
+    width: 60%;
+    background: red;
+}
+
+.modal1 {
+    display: none;
+}
+
+.modal2 {
+    display: none;
+}
+
+.modal3 {
+    display: none;
+}
+
+.modal4 {
+    display: none;
+}
+
+.modal5 {
+    display: none;
+}
+
+.modal6 {
+    display: none;
+}
+
+.modal-visible {
+    display: flex;
+}
