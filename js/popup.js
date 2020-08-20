@@ -1,7 +1,8 @@
 const popup = () => {
     const modalWrapp = document.querySelector('.modal-wrapp');
     const modal = document.querySelector('.modal');
-    const page = document.querySelector('#page-wrapp')
+    const page = document.querySelector('#page-wrapp');
+    const close = document.querySelector('.modal-close');
 
     const modal1 = document.querySelector('.modal1');
     const modal2 = document.querySelector('.modal2');
@@ -21,41 +22,61 @@ const popup = () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal1.classList.add('modal-visible');
 
+        close.addEventListener('click', () => {
+          modalWrapp.classList.remove('modal-wrapp-visible');
+          modal1.classList.remove('modal-visible');
+        });
+
         window.onclick = function(event) {
-            if (event.target == modalWrapp) {
-              modalWrapp.classList.remove('modal-wrapp-visible');
-              modal1.classList.remove('modal-visible');
-            }
+          if (event.target == modalWrapp) {
+            modalWrapp.classList.remove('modal-wrapp-visible');
+            modal1.classList.remove('modal-visible');
           }
+        }
     });
 
     btn2.addEventListener('click', () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal2.classList.add('modal-visible');
 
+        close.addEventListener('click', () => {
+          modalWrapp.classList.remove('modal-wrapp-visible');
+          modal1.classList.remove('modal-visible');
+        });
+
         window.onclick = function(event) {
             if (event.target == modalWrapp) {
               modalWrapp.classList.remove('modal-wrapp-visible');
               modal2.classList.remove('modal-visible');
             }
-          }
+        }
     });
 
     btn3.addEventListener('click', () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal3.classList.add('modal-visible');
 
+        close.addEventListener('click', () => {
+          modalWrapp.classList.remove('modal-wrapp-visible');
+          modal1.classList.remove('modal-visible');
+        });
+
         window.onclick = function(event) {
-            if (event.target == modalWrapp) {
-              modalWrapp.classList.remove('modal-wrapp-visible');
-              modal3.classList.remove('modal-visible');
-            }
+          if (event.target == modalWrapp) {
+            modalWrapp.classList.remove('modal-wrapp-visible');
+            modal3.classList.remove('modal-visible');
           }
+        }
     });
 
     btn4.addEventListener('click', () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal4.classList.add('modal-visible');
+
+        close.addEventListener('click', () => {
+          modalWrapp.classList.remove('modal-wrapp-visible');
+          modal1.classList.remove('modal-visible');
+        });
 
         window.onclick = function(event) {
             if (event.target == modalWrapp) {
@@ -69,6 +90,11 @@ const popup = () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal5.classList.add('modal-visible');
 
+        close.addEventListener('click', () => {
+          modalWrapp.classList.remove('modal-wrapp-visible');
+          modal1.classList.remove('modal-visible');
+        });
+
         window.onclick = function(event) {
             if (event.target == modalWrapp) {
               modalWrapp.classList.remove('modal-wrapp-visible');
@@ -80,6 +106,11 @@ const popup = () => {
     btn6.addEventListener('click', () => {
         modalWrapp.classList.add('modal-wrapp-visible');
         modal6.classList.add('modal-visible');
+
+        close.addEventListener('click', () => {
+          modalWrapp.classList.remove('modal-wrapp-visible');
+          modal1.classList.remove('modal-visible');
+        });
 
         window.onclick = function(event) {
             if (event.target == modalWrapp) {
