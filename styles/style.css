@@ -3422,9 +3422,203 @@ input:required, textarea:required {
 }
 
 .modal {
-  height: 80%;
-  width: 60%;
-  background: red;
+  height: 55%;
+  width: 30%;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+          box-shadow: 0px 0px 10px #ccc;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-container {
+  width: 92%;
+  height: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal-container .modal-close-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.modal-container .modal-close-container .modal-close i {
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.modal-container .modal-heading-container {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-container .modal-txt-container {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-container .modal-txt-container p {
+  font-size: 16px;
+}
+
+.modal-container .modal-tech-container {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal-container .modal-tech-container .modal-tech-list {
+  height: 100%;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.modal-container .modal-tech-container .modal-tech-list li {
+  color: #4a00fb;
+}
+
+.modal-container .modal-btns-container {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-container .modal-btns-container .modal-btn {
+  height: 40px;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.modal-container .modal-btns-container .modal-btn.live-btn {
+  background: #de0950;
+  -webkit-box-shadow: 0px 0px 3px #de0950;
+          box-shadow: 0px 0px 3px #de0950;
+  color: #fff;
+}
+
+.modal-container .modal-btns-container .modal-btn.live-btn:hover {
+  border: 2px solid #de0950;
+  -webkit-box-shadow: 0px 0px 3px #de0950;
+          box-shadow: 0px 0px 3px #de0950;
+  color: #000;
+  background: #fff;
+}
+
+.modal-container .modal-btns-container .modal-btn.code-btn {
+  border: 2px solid #de0950;
+  -webkit-box-shadow: 0px 0px 3px #de0950;
+          box-shadow: 0px 0px 3px #de0950;
+}
+
+.modal-container .modal-btns-container .modal-btn.code-btn:hover {
+  background: #de0950;
+  -webkit-box-shadow: 0px 0px 3px #de0950;
+          box-shadow: 0px 0px 3px #de0950;
+  color: #fff;
+}
+
+.modal-container .modal-footer-container {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  width: 100%;
+  background: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-container .modal-footer-container p {
+  font-size: 14px;
+  color: #999;
 }
 
 .modal1 {

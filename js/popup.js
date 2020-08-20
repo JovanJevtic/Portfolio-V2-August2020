@@ -1,6 +1,7 @@
 const popup = () => {
     const modalWrapp = document.querySelector('.modal-wrapp');
     const modal = document.querySelector('.modal');
+    const page = document.querySelector('#page-wrapp')
 
     const modal1 = document.querySelector('.modal1');
     const modal2 = document.querySelector('.modal2');
