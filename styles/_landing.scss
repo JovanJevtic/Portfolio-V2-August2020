@@ -185,7 +185,7 @@
     
     .landing-project-content {
         transition: 0.4s;
-        transform: scale(0.97);
+        transform: scale(0.97), rotate(0.001deg);
         border-radius: 25px;
 
         .landing-project-bg-shadow {
