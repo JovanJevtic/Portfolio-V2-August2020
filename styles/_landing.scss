@@ -231,7 +231,7 @@
     }   
 
     .gap {
-        height: 10vh;
+        height: 80px;
     }
 
     .landing-content {
@@ -623,10 +623,11 @@
     #landing {
         height: 180vh;
         width: 100%;
+        width: 500px;
     }   
 
     .gap {
-        height: 10vh;
+        height: 80px;
     }
 
     .landing-content {
@@ -641,6 +642,7 @@
     }
 
     .landing-content-column {
+        background: red;
         flex: 1;
     }
 

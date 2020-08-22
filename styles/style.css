@@ -161,11 +161,15 @@
 @media screen and (max-width: 920px) {
   .header {
     height: 10vh;
-    background: #fff;
-    -webkit-box-shadow: 0 0 10px;
-            box-shadow: 0 0 10px;
+    min-height: 80px;
+    max-height: 80px;
+    -webkit-box-shadow: 0 0 10px 10px 10px;
+            box-shadow: 0 0 10px 10px 10px;
     width: 100%;
     position: fixed;
+    z-index: 5000;
+    background: #fff;
+    border-bottom: 1px solid #eee;
   }
   .nav-container {
     display: -webkit-box;
@@ -176,7 +180,7 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    height: 10vh;
+    height: 80px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -198,7 +202,7 @@
     display: none;
   }
   .nav-list {
-    height: 10vh;
+    height: 80px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -499,7 +503,7 @@
     width: 100%;
   }
   .gap {
-    height: 10vh;
+    height: 80px;
   }
   .landing-content {
     height: 150vh;
@@ -939,9 +943,10 @@
   #landing {
     height: 180vh;
     width: 100%;
+    width: 500px;
   }
   .gap {
-    height: 10vh;
+    height: 80px;
   }
   .landing-content {
     height: 170vh;
@@ -958,6 +963,7 @@
             flex-direction: column;
   }
   .landing-content-column {
+    background: red;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -1576,14 +1582,14 @@
       grid-template-rows: 1fr 1fr;
   /*grid-row-gap: 10px;
     grid-column-gap: 10px;*/
-  grid-row-gap: 10px;
+  grid-row-gap: 15px;
 }
 
 .work-card {
-  width: 370px;
+  width: 365px;
   height: 350px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 .work-card1 {
@@ -1715,7 +1721,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 .work-card-content-section1 {
@@ -3623,26 +3629,38 @@ input:required, textarea:required {
 
 .modal1 {
   display: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .modal2 {
   display: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .modal3 {
   display: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .modal4 {
   display: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .modal5 {
   display: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .modal6 {
   display: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .modal-visible {
@@ -3687,6 +3705,7 @@ a {
 #page-wrapp {
   height: 100%;
   width: 100%;
+  max-width: 1920px;
 }
 
 h1 {

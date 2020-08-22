@@ -120,10 +120,15 @@
 @media screen and (max-width: 920px) {
     .header {
         height: 10vh;
-        background: #fff;
-        box-shadow: 0 0 10px    ;
+        min-height: 80px;
+        max-height: 80px;
+        box-shadow: 0 0 10px 10px 10px;
         width: 100%;
         position: fixed;
+        z-index: 5000;
+        background: #fff;
+        //box-shadow: 0 0 5px #ccc;
+        border-bottom: 1px solid #eee;
     }
 
     .nav-container {
@@ -132,7 +137,7 @@
 
     .logo-wrapp {
         flex: 1;
-        height: 10vh;
+        height: 80px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -150,7 +155,7 @@
     }
 
     .nav-list {
-        height: 10vh;
+        height: 80px;
         width: 100%;
         display: flex;
         list-style: none;
