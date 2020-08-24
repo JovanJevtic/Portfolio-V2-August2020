@@ -1,5 +1,6 @@
 #process4 {
     height: 65vh;
+    min-height: 650px;
     width: 100%;
     background: #fff url('../assets/wave8.svg') top right no-repeat;
 }
@@ -29,6 +30,7 @@
 
 .process4-heading-wrapp {
     height: 20vh;
+    min-height: 200px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -41,7 +43,7 @@
     background: $purple;
     position: absolute;
     border-radius: 25px;
-    margin-bottom: 6vh;
+    margin-bottom: 60px;
 }
 
 .process4-heading {
@@ -51,7 +53,7 @@
 }
 
 .process4-content {
-    margin-top: 10vh;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

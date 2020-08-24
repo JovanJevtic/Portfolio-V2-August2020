@@ -1,5 +1,6 @@
 #process5 {
     height: 100vh;
+    min-height: 1000px;
     width: 100%;
     background: $purple url('../assets/wave15.svg') top left no-repeat;
     color: #fff;
@@ -64,7 +65,7 @@
     background: #fff;
     border-radius: 25px;
     position: absolute;
-    margin-bottom: 6vh;
+    margin-bottom: 60px;
     display: none;
 }
 

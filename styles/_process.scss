@@ -1,5 +1,6 @@
 #process {
     height: 100vh;
+    min-height: 1000px;
     width: 100%;
     background: $purple;
 }
@@ -9,6 +10,7 @@
 }
 
 .process-heading-wrapp {
+    min-height: 250px;
     height: 25vh;
     width: 100%;
     display: flex;
@@ -23,6 +25,7 @@
 
 .process-content-wrapp {
     height: 75vh;
+    min-height: 750px;
     width: 100%;
     display: flex;
 }
@@ -47,14 +50,14 @@
 }
 
 .process-intro {
-    margin-top: 10vh;
+    margin-top: 100px;
     color: #fff;
     font-size: 18px;
     line-height: 35px;
 }
 
 .process-heading2 {
-    margin-top: 12vh;
+    margin-top: 120px;
     color: #fff;    
     font-size: 42px;
 }
@@ -67,7 +70,7 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    margin-top: 7vh;
+    margin-top: 70px;
     border-radius: 30px;
     font-weight: bold;
     font-size: 20px;

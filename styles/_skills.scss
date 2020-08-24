@@ -1,5 +1,6 @@
 .skills-display-container {
     height: 40vh;
+    min-height: 400px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,11 +9,13 @@
 
 .skills-display-wrapp {
     height: 25vh;
+    min-height: 250px;
     width: 100%;
 }
 
 .skills-display-label-wrapp {
     height: 10vh;
+    min-height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -22,6 +25,7 @@
 
 .skills-display {
     height: 10vh;
+    min-height: 100px;
     width: 100%;
     bottom: 0;
     background: #fff;

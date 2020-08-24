@@ -1,5 +1,6 @@
 #process2 {
     height: 60vh;
+    min-height: 600px;
     width: 100%;
     background: #fafafa url('../assets/wave7.svg') top right no-repeat;
 }
@@ -30,6 +31,7 @@
 
 .process2-heading-wrapp {
     height: 27vh;
+    min-height: 270px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -38,6 +40,7 @@
 
 .process2-content {
     height: 15vh;
+    min-height: 150px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -51,7 +54,7 @@
     width: 100px;
     background: $purple;
     border-radius: 25px;
-    margin-bottom: 9vh;
+    margin-bottom: 90px;
 }
 
 .process2-heading {
@@ -64,5 +67,5 @@
     font-size: 20px;
     line-height: 35px;
     text-align: left;
-    margin-top: 0vh;
+    margin-top: 0;
 }

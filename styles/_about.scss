@@ -1,5 +1,6 @@
 #about {
-    height: 900px;
+    height: 90vh;
+    min-height: 900px;
     width: 100%;
     background: #fafafa url('../assets/wave10.svg') bottom left no-repeat;
     display: flex;
@@ -8,19 +9,22 @@
 }
 
 .about-wrapp {
-    height: 900px;
+    height: 90vh;
+    min-height: 900px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .about-columns {
-    height: 600px;
+    height: 60vh;
+    min-height: 600px;
     display: flex;
 }
 
 .about-row {
     height: 30vh;
+    min-height: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +119,7 @@
 .about-heading {
     text-align: end;
     font-size: 42px;
-    margin-top: 1vh;
+    margin-top: 10px;
 }
 
 .about-heading-line {
@@ -128,7 +132,7 @@
 
 .about-txt {
     text-align: end;
-    margin-top: 7vh;
+    margin-top: 70px;
     line-height: 30px;
 }
 

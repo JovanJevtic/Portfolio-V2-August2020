@@ -1,5 +1,6 @@
 #process3 {
     height: 75vh;
+    min-height: 750px;
     width: 100%;
     background: #fff;
     //background: $purple;
@@ -29,6 +30,7 @@
 
 .process3-heading-wrapp {
     height: 27vh;
+    min-height: 270px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -51,11 +53,12 @@
 
 .process3-content {
     height: 22vh;
+    min-height: 220px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-top: 10vh;
+    margin-top: 100px;
 }
 
 .process3-txt {

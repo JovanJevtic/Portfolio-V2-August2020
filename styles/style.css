@@ -479,7 +479,8 @@
 }
 
 #about {
-  height: 900px;
+  height: 90vh;
+  min-height: 900px;
   width: 100%;
   background: #fafafa url("../assets/wave10.svg") bottom left no-repeat;
   display: -webkit-box;
@@ -494,7 +495,8 @@
 }
 
 .about-wrapp {
-  height: 900px;
+  height: 90vh;
+  min-height: 900px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -506,7 +508,8 @@
 }
 
 .about-columns {
-  height: 600px;
+  height: 60vh;
+  min-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -514,6 +517,7 @@
 
 .about-row {
   height: 30vh;
+  min-height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -649,7 +653,7 @@
 .about-heading {
   text-align: end;
   font-size: 42px;
-  margin-top: 1vh;
+  margin-top: 10px;
 }
 
 .about-heading-line {
@@ -662,7 +666,7 @@
 
 .about-txt {
   text-align: end;
-  margin-top: 7vh;
+  margin-top: 70px;
   line-height: 30px;
 }
 
@@ -763,6 +767,7 @@
 @media screen and (min-width: 1400px) {
   #work {
     height: 125vh;
+    min-height: 1250px;
     width: 100%;
     background: url("../assets/wave11.svg") center right no-repeat;
   }
@@ -780,10 +785,12 @@
   }
   .work-wrapp {
     height: 120vh;
+    min-height: 1200px;
     width: 100%;
   }
   .work-heading-wrapp {
     height: 20vh;
+    min-height: 200px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -797,6 +804,7 @@
   }
   .work-content-wrapp {
     height: 90vh;
+    min-height: 900px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -826,7 +834,7 @@
   }
   .work-subheading {
     position: absolute;
-    margin-top: 10vh;
+    margin-top: 100px;
     font-size: 20px;
     margin-left: 0;
     font-weight: bold;
@@ -1024,6 +1032,7 @@
 
 .skills-display-container {
   height: 40vh;
+  min-height: 400px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1038,11 +1047,13 @@
 
 .skills-display-wrapp {
   height: 25vh;
+  min-height: 250px;
   width: 100%;
 }
 
 .skills-display-label-wrapp {
   height: 10vh;
+  min-height: 100px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1058,6 +1069,7 @@
 
 .skills-display {
   height: 10vh;
+  min-height: 100px;
   width: 100%;
   bottom: 0;
   background: #fff;
@@ -1105,6 +1117,7 @@
 
 #process {
   height: 100vh;
+  min-height: 1000px;
   width: 100%;
   background: #4a00fb;
 }
@@ -1114,6 +1127,7 @@
 }
 
 .process-heading-wrapp {
+  min-height: 250px;
   height: 25vh;
   width: 100%;
   display: -webkit-box;
@@ -1134,6 +1148,7 @@
 
 .process-content-wrapp {
   height: 75vh;
+  min-height: 750px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1169,14 +1184,14 @@
 }
 
 .process-intro {
-  margin-top: 10vh;
+  margin-top: 100px;
   color: #fff;
   font-size: 18px;
   line-height: 35px;
 }
 
 .process-heading2 {
-  margin-top: 12vh;
+  margin-top: 120px;
   color: #fff;
   font-size: 42px;
 }
@@ -1195,7 +1210,7 @@
       -ms-flex-align: center;
           align-items: center;
   color: #fff;
-  margin-top: 7vh;
+  margin-top: 70px;
   border-radius: 30px;
   font-weight: bold;
   font-size: 20px;
@@ -1203,6 +1218,7 @@
 
 #process-line-section {
   height: 30vh;
+  min-height: 300px;
   width: 100%;
 }
 
@@ -1221,6 +1237,7 @@
 
 .process-line-wrapp {
   height: 20vh;
+  min-height: 200px;
   width: 1080px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1373,6 +1390,7 @@
 
 #process1 {
   height: 125vh;
+  min-height: 1250px;
   width: 100%;
   background: #fafafa url("../assets/wave6.svg") top left no-repeat;
 }
@@ -1432,6 +1450,7 @@
 
 .process1-heading-wrapp {
   height: 25vh;
+  min-height: 250px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1450,6 +1469,7 @@
 
 .process1-heading-wrapp2 {
   height: 20vh;
+  min-height: 200px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1474,7 +1494,7 @@
 }
 
 .process1-heading {
-  margin-top: 1vh;
+  margin-top: 10px;
   font-size: 42px;
   text-transform: capitalize;
 }
@@ -1503,30 +1523,31 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5vh;
+  margin-top: 50px;
 }
 
 .process1-txt {
   font-size: 20px;
   line-height: 35px;
   text-align: right;
-  margin-top: 10vh;
+  margin-top: 100px;
 }
 
 .process1-txt2 {
   font-size: 20px;
   line-height: 35px;
   text-align: left;
-  margin-top: 5vh;
+  margin-top: 50px;
 }
 
 .process1-contact-btn {
   position: absolute;
-  margin-top: 37vh;
+  margin-top: 370px;
 }
 
 #process2 {
   height: 60vh;
+  min-height: 600px;
   width: 100%;
   background: #fafafa url("../assets/wave7.svg") top right no-repeat;
 }
@@ -1567,6 +1588,7 @@
 
 .process2-heading-wrapp {
   height: 27vh;
+  min-height: 270px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1581,6 +1603,7 @@
 
 .process2-content {
   height: 15vh;
+  min-height: 150px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1599,7 +1622,7 @@
   width: 100px;
   background: #4a00fb;
   border-radius: 25px;
-  margin-bottom: 9vh;
+  margin-bottom: 90px;
 }
 
 .process2-heading {
@@ -1612,11 +1635,12 @@
   font-size: 20px;
   line-height: 35px;
   text-align: left;
-  margin-top: 0vh;
+  margin-top: 0;
 }
 
 #process3 {
   height: 75vh;
+  min-height: 750px;
   width: 100%;
   background: #fff;
 }
@@ -1657,6 +1681,7 @@
 
 .process3-heading-wrapp {
   height: 27vh;
+  min-height: 270px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1685,6 +1710,7 @@
 
 .process3-content {
   height: 22vh;
+  min-height: 220px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1695,7 +1721,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-top: 10vh;
+  margin-top: 100px;
 }
 
 .process3-txt {
@@ -1706,6 +1732,7 @@
 
 #process4 {
   height: 65vh;
+  min-height: 650px;
   width: 100%;
   background: #fff url("../assets/wave8.svg") top right no-repeat;
 }
@@ -1745,6 +1772,7 @@
 
 .process4-heading-wrapp {
   height: 20vh;
+  min-height: 200px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1763,7 +1791,7 @@
   background: #4a00fb;
   position: absolute;
   border-radius: 25px;
-  margin-bottom: 6vh;
+  margin-bottom: 60px;
 }
 
 .process4-heading {
@@ -1773,7 +1801,7 @@
 }
 
 .process4-content {
-  margin-top: 10vh;
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1793,6 +1821,7 @@
 
 #process5 {
   height: 100vh;
+  min-height: 1000px;
   width: 100%;
   background: #4a00fb url("../assets/wave15.svg") top left no-repeat;
   color: #fff;
@@ -1892,7 +1921,7 @@
   background: #fff;
   border-radius: 25px;
   position: absolute;
-  margin-bottom: 6vh;
+  margin-bottom: 60px;
   display: none;
 }
 
@@ -1960,6 +1989,7 @@
 
 #contact {
   height: 80vh;
+  min-height: 800px;
   width: 100%;
   background: #fafafa;
 }
@@ -1970,6 +2000,7 @@
 
 .contact-content-wrapp {
   height: 80vh;
+  min-height: 800px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2023,6 +2054,7 @@
 
 .contact-form-heading-wrapp {
   height: 20vh;
+  min-height: 200px;
   width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2051,6 +2083,7 @@
 
 .contact-form-container {
   height: 60vh;
+  min-height: 600px;
   width: 70%;
 }
 
@@ -2200,6 +2233,7 @@ input:required, textarea:required {
 
 .contact-info-heading-wrapp {
   height: 15vh;
+  min-height: 150px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2218,6 +2252,7 @@ input:required, textarea:required {
 
 .contact-info-content {
   height: 65vh;
+  min-height: 650px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2230,6 +2265,7 @@ input:required, textarea:required {
 
 .contact-info-row {
   height: 10vh;
+  min-height: 100px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2282,8 +2318,17 @@ input:required, textarea:required {
   color: #4a00fb;
 }
 
+.contact-container-wrapp {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #footer {
   height: 10vh;
+  min-height: 100px;
   width: 100%;
   background: #fff;
   -webkit-box-shadow: 0px 0px 5px #eee;
