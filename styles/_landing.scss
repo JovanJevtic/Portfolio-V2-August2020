@@ -130,20 +130,6 @@
         align-items: center;
     }
     
-    .project1 {
-        margin-top: 50px;
-    }
-    
-    .project2 {
-        margin-top: 200px;    
-        margin-left: 50px;
-    }
-    
-    .project3 {
-        margin-top: 365px;    
-        margin-left: -50px;
-    }
-    
     .landing-project-content {
         height: 84%;
         width: 94%;
@@ -217,8 +203,9 @@
 
 @media screen and (max-width: 600px) {
     #landing {
-        height: 200vh;
+        min-height: 1100px;
         width: 100%;
+        background: #fff url('../assets/wave.svg') no-repeat bottom;
     }
 
     .gap {
@@ -226,6 +213,113 @@
     }
 
     .landing-content {
+        height: 100%;
+        
+        .landing-wrapp {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
 
+            .landing-content-column {
+
+                &:nth-child(1) {
+                    height: 600px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .title {
+                        font-size: 20px;
+                        background: -webkit-linear-gradient(45deg, $purple, $red);
+                        //background: #000;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        margin-top: 70px;   
+                    }
+
+                    .heading {
+                        margin-top: 10px;
+                        font-size: 42px;
+                        text-align: center;
+                    }
+
+                    .subheading {
+                        margin-top: 60px;
+                        font-size: 16px;
+                        text-align: center;
+                    }
+
+                    .landing-btn-wrapp {
+                        height: 60px;
+                        width: 240px;           
+                        margin-top: 70px;
+                    
+                        a {
+                            height: 60px;
+                            width: 230px;   
+                            
+                            .landing-btn {
+                                height: 60px;
+                                min-height: 60px;
+                                width: 230px;   
+                                background: linear-gradient(120deg, $red, $purple);
+                                //background: $red;
+                                display: flex;
+                                align-items: center;
+                                color: #fff;
+                                border-radius: 30px;
+                                font-weight: bold;
+                                font-size: 22px;
+                            
+                                .landing-btn-txt {
+                                    flex: 4;
+                                    display: flex;
+                                    justify-content: center;
+                                }
+                    
+                                .landing-btn-icon {
+                                    flex: 2;
+                                    display: flex;
+                                    justify-content: center;
+                    
+                                    .landing-btn-icon-circle {
+                                        height: 40px;
+                                        width: 40px;
+                                        border-radius: 50%;
+                                        background: #fff;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        color: #000;
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    height: 500px;
+                    //background: red;
+
+                    .landing-projects-wrapp {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 80%;
+
+                        svg {
+                            height: 400px;
+                            width: 370px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
