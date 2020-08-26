@@ -862,13 +862,13 @@
             flex-direction: column;
   }
   #about .about-wrapp .about-columns {
-    min-height: 1100px;
+    min-height: 1450px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1;
         grid-template-columns: 1;
-    -ms-grid-rows: 3fr 2fr;
-        grid-template-rows: 3fr 2fr;
+    -ms-grid-rows: 5fr 3fr;
+        grid-template-rows: 5fr 3fr;
   }
   #about .about-wrapp .about-columns .about-svg-wrapp {
     -ms-grid-row: 2;
@@ -893,11 +893,11 @@
   }
   #about .about-wrapp .about-columns .about-txt-wrapp .about-heading {
     font-size: 42px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
   }
   #about .about-wrapp .about-columns .about-txt-wrapp .about-txt {
-    margin-top: 80px;
+    margin-top: 110px;
     line-height: 32px;
     text-align: center;
   }
@@ -924,7 +924,7 @@
   }
   #about .about-wrapp .about-columns .about-txt-wrapp .about-skills .about-skills-content {
     height: 270px;
-    margin-top: 80px;
+    margin-top: 130px;
   }
   #about .about-wrapp .about-columns .about-txt-wrapp .about-skills .about-skills-content .about-skills-list-wrapp {
     display: -webkit-box;
@@ -946,19 +946,90 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
   }
   #about .about-wrapp .about-columns .about-txt-wrapp .about-skills .about-skills-content .about-skills-list-wrapp ul li {
     padding: 5px;
     font-weight: bold;
   }
   #about .about-wrapp .about-row {
-    min-height: 800px;
+    min-height: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about .about-wrapp .about-row .about-card {
+    height: 110px;
+    width: 340px;
+    -webkit-box-shadow: 0px 0px 10px #ddd;
+            box-shadow: 0px 0px 10px #ddd;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about .about-wrapp .about-row .about-card .about-card-txt-wrapp {
+    height: 50px;
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+  }
+  #about .about-wrapp .about-row .about-card .about-card-txt-wrapp .about-card-txt-container {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about .about-wrapp .about-row .about-card .about-card-txt-wrapp .about-card-txt-container p {
+    padding: 15px;
+  }
+  #about .about-wrapp .about-row .about-card .about-card-txt-wrapp .about-card-icon-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .about-wrapp .about-row .about-card .about-card-txt-wrapp .about-card-icon-container img {
+    max-width: 25px;
   }
 }
 
@@ -1244,6 +1315,249 @@
     color: #de0950;
     color: #fff;
     margin-top: 180px;
+    font-size: 18px;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #work {
+    height: 2800px;
+    width: 100%;
+    background: url("../assets/wave11.svg") center right no-repeat;
+  }
+  #work .work-container {
+    height: 100%;
+  }
+  #work .work-container .work-wrapp {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #work .work-container .work-wrapp .work-heading-wrapp {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #work .work-container .work-wrapp .work-heading-wrapp h1 {
+    font-size: 42px;
+    position: absolute;
+  }
+  #work .work-container .work-wrapp .work-heading-wrapp p {
+    font-size: 18px;
+    position: absolute;
+    font-weight: bold;
+    margin-top: 120px;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp {
+    -webkit-box-flex: 10;
+        -ms-flex: 10;
+            flex: 10;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card {
+    height: 300px;
+    width: 340px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card1 {
+    background: url("../assets/Annotation 2020-08-14 010147.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card2 {
+    background: url("../assets/web1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card3 {
+    background: url("../assets/web2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card4 {
+    background: url("../assets/Annotation 2020-08-14 010444.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card5 {
+    background: url("../assets/Annotation 2020-08-14 010833.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card6 {
+    background: url("../assets/Annotation 2020-08-14 010631.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card:hover .work-card-content {
+    opacity: 1;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card:hover .work-card-content .work-card-title {
+    -webkit-transition: 1.25s;
+    transition: 1.25s;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    color: #000;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card:hover .work-card-content .work-card-link {
+    -webkit-transition: 1.25s;
+    transition: 1.25s;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card:hover .work-card-content .work-card-link:hover {
+    -webkit-box-shadow: 0px 0px 3px #ac083f;
+            box-shadow: 0px 0px 3px #ac083f;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card:hover .work-card-content .work-card-txt {
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    color: #000;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card-content {
+    height: 100%;
+    width: 100%;
+    background: #fafafa;
+    opacity: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 1px;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card-content-section1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card-content-section2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card-title {
+    font-size: 42px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    color: #fff;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card-link {
+    height: 45px;
+    width: 150px;
+    border: 3px solid #de0950;
+    background: #de0950;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: bold;
+    color: #fff;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    cursor: pointer;
+    font-size: 18px;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card-link:hover {
+    background: #de0950;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  #work .work-container .work-wrapp .work-content-wrapp .work-cards-container .work-card-txt {
+    color: #de0950;
+    color: #fff;
+    margin-top: 120px;
     font-size: 18px;
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
