@@ -1,4 +1,4 @@
-export default function animateLanding (){
+export default function animateLanding () {
     const animateLandingTitle = () => {
         const title = document.querySelector('.title');
         title.classList.add('animated')
@@ -12,7 +12,7 @@ export default function animateLanding (){
     }
     
     setTimeout(animateLandingHeading, 500)
-    
+        
     const animateLandingSubheading = () => {
         const subheading = document.querySelector('.subheading');
         subheading.classList.add('animated')

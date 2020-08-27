@@ -1,77 +1,152 @@
-#process {
-    height: 100vh;
-    min-height: 1000px;
-    width: 100%;
-    background: $purple;
-}
-
-.process-container {
-    height: 100%;
-}
-
-.process-heading-wrapp {
-    min-height: 250px;
-    height: 25vh;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-
-.process-heading {
-    color: #fff;
-    font-size: 52px;
-}
-
-.process-content-wrapp {
-    height: 75vh;
-    min-height: 750px;
-    width: 100%;
-    display: flex;
-}
-
-.process-content {
-    flex: 1;
-
-}
-
-.process-svg-wrapp {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-
-    svg {
-        position: absolute;
-        max-width: 700px;
-        max-height: 600px;
-        right: 150px;
+@media screen and (min-width: 1400px) {
+    #process {
+        height: 100vh;
+        min-height: 1000px;
+        width: 100%;
+        background: $purple;
+    }
+    
+    .process-container {
+        height: 100%;
+    }
+    
+    .process-heading-wrapp {
+        min-height: 250px;
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    
+    .process-heading {
+        color: #fff;
+        font-size: 52px;
+    }
+    
+    .process-content-wrapp {
+        height: 75vh;
+        min-height: 750px;
+        width: 100%;
+        display: flex;
+    }
+    
+    .process-content {
+        flex: 1;
+    
+    }
+    
+    .process-svg-wrapp {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    
+        svg {
+            position: absolute;
+            max-width: 700px;
+            max-height: 600px;
+            right: 150px;
+        }
+    }
+    
+    .process-intro {
+        margin-top: 100px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    
+    .process-heading2 {
+        margin-top: 120px;
+        color: #fff;    
+        font-size: 42px;
+    }
+    
+    .contact-btn {
+        height: 55px;
+        width: 220px;
+        background: $red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        margin-top: 70px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 20px;
     }
 }
 
-.process-intro {
-    margin-top: 100px;
-    color: #fff;
-    font-size: 18px;
-    line-height: 35px;
-}
+@media screen and (max-width: 600px) {
+    #process {
+        height: 1200px;
+        width: 100%;
+        background: $purple;
+        color: #fff;
 
-.process-heading2 {
-    margin-top: 120px;
-    color: #fff;    
-    font-size: 42px;
-}
+        .process-container {
+            height: 100%;
+        
+            .process-heading-wrapp {
+                width: 100%;
+                height: 200px;
+                display: flex;
+                text-align: center;
+                align-items: center; 
 
-.contact-btn {
-    height: 55px;
-    width: 220px;
-    background: $red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    margin-top: 70px;
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 20px;
-}
+                h1 {
+                    font-size: 36px;
+                }
+            }
+
+            .process-content-wrapp {
+                width: 100%;
+                height: 1000px;
+                display: flex;
+                flex-direction: column;
+
+                .process-content {
+                    flex: 3;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                    p {
+                        margin-top: 50px;
+                    }
+
+                    h1 {
+                        margin-top: 100px;
+                        font-size: 28px;
+                    }   
+
+                    a {
+                        height: 55px;
+                        width: 220px;
+                        background: $red;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                        margin-top: 80px;
+                        border-radius: 30px;
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                }
+
+                .process-svg-wrapp {
+                    flex: 2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    svg {
+                        max-height: 300px;
+                    }
+                }
+            }
+        }
+    }
+} 
