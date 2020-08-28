@@ -57,6 +57,22 @@ h1 {
     font-family: 'Do Hyeon', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 100px;
+  width: 10px;
+  background: $purple;
+  background: linear-gradient(140deg, $purple, $red);
+}
+
+::-webkit-scrollbar-track {
+    background: #fafafa;
+    border-radius: 20px;
+}
+
 @media (min-width: 921px) and (max-width: 1400px) {
     .container {
         width: 780px;
