@@ -2267,6 +2267,7 @@
   }
   #process1 .process1-container .process1-svg-wrapp svg {
     max-height: 400px;
+    max-width: 320px;
   }
   #process1 .process1-container .process1-wrapp {
     display: -webkit-box;
@@ -2305,7 +2306,7 @@
   }
   #process1 .process1-container .process1-wrapp .process1-content-wrapp1 .process1-heading-wrapp h1 {
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
   }
   #process1 .process1-container .process1-wrapp .process1-content-wrapp1 .process1-content {
     -webkit-box-flex: 1;
@@ -2349,7 +2350,7 @@
   }
   #process1 .process1-container .process1-wrapp .process1-content-wrapp2 .process1-heading-wrapp2 h1 {
     text-align: center;
-    font-size: 42px;
+    font-size: 36px;
   }
   #process1 .process1-container .process1-wrapp .process1-content-wrapp2 .process1-content2 {
     -webkit-box-flex: 1;
@@ -2395,189 +2396,293 @@
   }
 }
 
-#process2 {
-  height: 60vh;
-  min-height: 600px;
-  width: 100%;
-  background: #fafafa url("../assets/wave7.svg") top right no-repeat;
+@media screen and (min-width: 1400px) {
+  #process2 {
+    height: 60vh;
+    min-height: 600px;
+    width: 100%;
+    background: #fafafa url("../assets/wave7.svg") top right no-repeat;
+  }
+  .process2-container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .process2-content-wrapp {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 100%;
+  }
+  .process2-svg-wrapp {
+    height: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .process2-svg-wrapp svg {
+    position: absolute;
+    max-height: 450px;
+    max-width: 600px;
+    right: 100px;
+  }
+  .process2-heading-wrapp {
+    height: 27vh;
+    min-height: 270px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .process2-content {
+    height: 15vh;
+    min-height: 150px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .process2-heading-line {
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    background: #4a00fb;
+    border-radius: 25px;
+    margin-bottom: 90px;
+  }
+  .process2-heading {
+    font-size: 42px;
+    position: absolute;
+    text-transform: capitalize;
+  }
+  .process2-txt {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 0;
+  }
 }
 
-.process2-container {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (max-width: 600px) {
+  #process2 {
+    height: 900px;
+    width: 100%;
+    background: #fafafa url("../assets/wave18.svg") bottom right no-repeat;
+  }
+  #process2 .process2-container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #process2 .process2-container .process2-content-wrapp {
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #process2 .process2-container .process2-content-wrapp .process2-heading-wrapp {
+    height: 150px;
+  }
+  #process2 .process2-container .process2-content-wrapp .process2-heading-wrapp h1 {
+    font-size: 38px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  #process2 .process2-container .process2-content-wrapp .process2-content {
+    height: 250px;
+  }
+  #process2 .process2-container .process2-content-wrapp .process2-content .process2-txt {
+    text-align: center;
+    margin-top: 80px;
+  }
+  #process2 .process2-container .process2-svg-wrapp {
+    height: 600px;
+  }
+  #process2 .process2-container .process2-svg-wrapp svg {
+    max-height: 600px;
+  }
 }
 
-.process2-content-wrapp {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  height: 100%;
+@media screen and (min-width: 1400px) {
+  #process3 {
+    height: 75vh;
+    min-height: 750px;
+    width: 100%;
+    background: #fff;
+  }
+  .process3-container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .process3-svg-wrapp {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .process3-svg-wrapp .process3-svg {
+    height: 425px;
+    position: absolute;
+    left: 100px;
+  }
+  .process3-content-wrapp {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .process3-heading-wrapp {
+    height: 27vh;
+    min-height: 270px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .process3-heading-line {
+    height: 30px;
+    width: 100px;
+    background: #4a00fb;
+    position: absolute;
+    border-radius: 25px;
+    margin-bottom: 5.5vh;
+  }
+  .process3-heading {
+    position: absolute;
+    font-size: 42px;
+  }
+  .process3-content {
+    height: 22vh;
+    min-height: 220px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 100px;
+  }
+  .process3-txt {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+  }
 }
 
-.process2-svg-wrapp {
-  height: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.process2-svg-wrapp svg {
-  position: absolute;
-  max-height: 450px;
-  max-width: 600px;
-  right: 100px;
-}
-
-.process2-heading-wrapp {
-  height: 27vh;
-  min-height: 270px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.process2-content {
-  height: 15vh;
-  min-height: 150px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-.process2-heading-line {
-  position: absolute;
-  height: 30px;
-  width: 100px;
-  background: #4a00fb;
-  border-radius: 25px;
-  margin-bottom: 90px;
-}
-
-.process2-heading {
-  font-size: 42px;
-  position: absolute;
-  text-transform: capitalize;
-}
-
-.process2-txt {
-  font-size: 20px;
-  line-height: 35px;
-  text-align: left;
-  margin-top: 0;
-}
-
-#process3 {
-  height: 75vh;
-  min-height: 750px;
-  width: 100%;
-  background: #fff;
-}
-
-.process3-container {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.process3-svg-wrapp {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.process3-svg-wrapp .process3-svg {
-  height: 425px;
-  position: absolute;
-  left: 100px;
-}
-
-.process3-content-wrapp {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.process3-heading-wrapp {
-  height: 27vh;
-  min-height: 270px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.process3-heading-line {
-  height: 30px;
-  width: 100px;
-  background: #4a00fb;
-  position: absolute;
-  border-radius: 25px;
-  margin-bottom: 5.5vh;
-}
-
-.process3-heading {
-  position: absolute;
-  font-size: 42px;
-}
-
-.process3-content {
-  height: 22vh;
-  min-height: 220px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  margin-top: 100px;
-}
-
-.process3-txt {
-  font-size: 20px;
-  line-height: 35px;
-  text-align: right;
+@media screen and (max-width: 600px) {
+  #process3 {
+    height: 700px;
+    width: 100%;
+    background: #fff;
+  }
+  #process3 .process3-container {
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 400px 300px;
+        grid-template-rows: 400px 300px;
+  }
+  #process3 .process3-container .process3-svg-wrapp {
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    grid-row-end: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #process3 .process3-container .process3-svg-wrapp img {
+    max-height: 500px;
+    max-width: 340px;
+  }
+  #process3 .process3-container .process3-content-wrapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #process3 .process3-container .process3-content-wrapp .process3-heading-wrapp {
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #process3 .process3-container .process3-content-wrapp .process3-heading-wrapp .process3-heading-line {
+    display: none;
+  }
+  #process3 .process3-container .process3-content-wrapp .process3-heading-wrapp h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #process3 .process3-container .process3-content-wrapp .process3-content {
+    height: 250px;
+  }
+  #process3 .process3-container .process3-content-wrapp .process3-content .process3-txt {
+    text-align: center;
+    margin-top: 40px;
+  }
 }
 
 #process4 {
