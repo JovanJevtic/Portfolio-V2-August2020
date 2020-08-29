@@ -1,68 +1,128 @@
-#process3 {
-    height: 75vh;
-    min-height: 750px;
-    width: 100%;
-    background: #fff;
-    //background: $purple;
-}
-
-.process3-container {
-    height: 100%;
-    display: flex;
-}
-
-.process3-svg-wrapp {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start                                         ;
-    align-items: center;
+@media screen and (min-width: 1400px) {
+    #process3 {
+        height: 75vh;
+        min-height: 750px;
+        width: 100%;
+        background: #fff;
+        //background: $purple;
+    }
     
-    .process3-svg {
-        height: 425px;
+    .process3-container {
+        height: 100%;
+        display: flex;
+    }
+    
+    .process3-svg-wrapp {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start                                         ;
+        align-items: center;
+        
+        .process3-svg {
+            height: 425px;
+            position: absolute;
+            left: 100px;
+        }
+    }
+    
+    .process3-content-wrapp {
+        flex: 1;
+    }
+    
+    .process3-heading-wrapp {
+        height: 27vh;
+        min-height: 270px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .process3-heading-line {
+        height: 30px;
+        width: 100px;
+        background: $purple;
         position: absolute;
-        left: 100px;
+        border-radius: 25px;
+        margin-bottom: 5.5vh;
+    }
+    
+    .process3-heading {
+        position: absolute;
+        font-size: 42px;
+    }
+    
+    .process3-content {
+        height: 22vh;
+        min-height: 220px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+    
+    .process3-txt {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: right;
     }
 }
 
-.process3-content-wrapp {
-    flex: 1;
-}
+@media screen and (max-width: 600px) {
+    #process3 {
+        height: 700px;
+        width: 100%;
+        background: #fff;
+        
+        .process3-container {
+            height: 100%;
+            display: grid;
+            grid-template-rows: 400px 300px;
 
-.process3-heading-wrapp {
-    height: 27vh;
-    min-height: 270px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
+            .process3-svg-wrapp {
+                grid-row-start: 2;
+                grid-row-end: 3;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-.process3-heading-line {
-    height: 30px;
-    width: 100px;
-    background: $purple;
-    position: absolute;
-    border-radius: 25px;
-    margin-bottom: 5.5vh;
-}
+                img {
+                    max-height: 500px;
+                    max-width: 340px;
+                }
+            }
 
-.process3-heading {
-    position: absolute;
-    font-size: 42px;
-}
+            .process3-content-wrapp {
+                display: flex;
+                flex-direction: column;
 
-.process3-content {
-    height: 22vh;
-    min-height: 220px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-top: 100px;
-}
+                .process3-heading-wrapp {
+                    height: 150px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
 
-.process3-txt {
-    font-size: 20px;
-    line-height: 35px;
-    text-align: right;
+                    .process3-heading-line {
+                        display: none;
+                    }
+
+                    h1 {
+                        font-size: 36px;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                }
+
+                .process3-content {
+                    height: 250px;
+
+                    .process3-txt {
+                        text-align: center;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
 }
