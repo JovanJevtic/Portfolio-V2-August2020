@@ -2604,6 +2604,7 @@
   }
   #process2 .process2-container .process2-svg-wrapp svg {
     max-height: 600px;
+    max-width: 340px;
   }
 }
 
