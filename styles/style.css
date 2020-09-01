@@ -3464,12 +3464,14 @@
 
 @media screen and (max-width: 600px) {
   #contact {
-    height: 1300px;
+    height: 1700px;
     width: 100%;
     background: #fafafa;
+    display: none;
   }
   .contact-container {
     height: 100%;
+    background: red;
   }
   .contact-content-wrapp {
     height: 80vh;
@@ -3772,31 +3774,59 @@
   }
 }
 
-#footer {
-  height: 10vh;
-  min-height: 100px;
-  width: 100%;
-  background: #fff;
-  -webkit-box-shadow: 0px 0px 5px #eee;
-          box-shadow: 0px 0px 5px #eee;
+@media screen and (min-width: 1400px) {
+  #footer {
+    height: 10vh;
+    min-height: 100px;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px #eee;
+            box-shadow: 0px 0px 5px #eee;
+  }
+  .footer-container {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-message {
+    font-weight: bold;
+  }
 }
 
-.footer-container {
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer-message {
-  font-weight: bold;
+@media screen and (max-width: 600px) {
+  #footer {
+    height: 70px;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px #eee;
+            box-shadow: 0px 0px 5px #eee;
+  }
+  .footer-container {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-message {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
 }
 
 @-webkit-keyframes Rocket-animation {

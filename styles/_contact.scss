@@ -245,13 +245,15 @@
 
 @media screen and (max-width: 600px) {
     #contact {
-        height: 1300px;
+        height: 1700px;
         width: 100%;
         background: #fafafa;
+        display: none;
     }
     
     .contact-container {
         height: 100%;
+        background: red;
     }
     
     .contact-content-wrapp {
