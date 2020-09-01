@@ -1,65 +1,135 @@
-.skills-display-container {
-    height: 40vh;
-    min-height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills-display-wrapp {
-    height: 25vh;
-    min-height: 250px;
-    width: 100%;
-}
-
-.skills-display-label-wrapp {
-    height: 10vh;
-    min-height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
-
-.skills-display {
-    height: 10vh;
-    min-height: 100px;
-    width: 100%;
-    bottom: 0;
-    background: #fff;
-    box-shadow: 0 0 10px #ccc;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.skills-display-label {
-    font-size: 20px;
-    font-weight: bold;
-    background: -webkit-linear-gradient(45deg, #fff, $red);
-    //background: #000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.skill-card {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-
-    i {
-        font-size: 34px;
-        color: $purple;
+@media screen and (min-width: 1400px) {
+    .skills-display-container {
+        height: 40vh;
+        min-height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skills-display-wrapp {
+        height: 25vh;
+        min-height: 250px;
+        width: 100%;
+    }
+    
+    .skills-display-label-wrapp {
+        height: 10vh;
+        min-height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    
+    .skills-display {
+        height: 10vh;
+        min-height: 100px;
+        width: 100%;
+        bottom: 0;
+        background: #fff;
+        box-shadow: 0 0 10px #ccc;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    .skills-display-label {
+        font-size: 20px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(45deg, #fff, $red);
+        //background: #000;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .skill-card {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    
+        i {
+            font-size: 34px;
+            color: $purple;
+        }
+    }
+    
+    .skill-card:hover {
+        i {
+            color: $purple;
+            transition: 0.3s;
+            margin-bottom: 15px;
+        }
     }
 }
 
-.skill-card:hover {
-    i {
-        color: $purple;
-        transition: 0.3s;
-        margin-bottom: 15px;
+@media screen and (max-width: 600px) {
+    .skills-display-container {
+        height: 40vh;
+        min-height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skills-display-wrapp {
+        height: 25vh;
+        min-height: 250px;
+        width: 100%;
+    }
+    
+    .skills-display-label-wrapp {
+        height: 10vh;
+        min-height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        display: none;
+    }
+    
+    .skills-display {
+        height: 180px;
+        width: 100%;
+        bottom: 0;
+        background: #fff;
+        box-shadow: 0 0 10px #ccc;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .skills-display-label {
+        font-size: 20px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(45deg, #fff, $red);
+        //background: #000;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .skill-card {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    
+        i {
+            font-size: 34px;
+            color: $purple;
+        }
+    }
+    
+    .skill-card:hover {
+        i {
+            color: $purple;
+            transition: 0.3s;
+            margin-bottom: 15px;
+        }
     }
 }

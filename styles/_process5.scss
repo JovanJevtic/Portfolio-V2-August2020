@@ -127,9 +127,12 @@
             .process5-svg-wrapp {
                 grid-row-start: 2;
                 grid-row-end: 3;
-                
+                display: flex;
+                justify-content: center;
+
                 svg {
                     max-height: 400px;
+                    max-width: 340px;
                 }
             }
 
@@ -156,16 +159,24 @@
                         height: 350px;
                         display: flex;
                         justify-content: center;
+                        align-items: center;
 
-                        p {
+                        .process5-txt {
                             text-align: center;
-                            margin-top: 20px;
+                            margin-top: -90px;
                         }
                     }
                 }
 
                 .process5-txt-section2 {
                     height: 350px;
+                    
+                    .process5-txt-heading-wrapp2 {
+                        height: 50px;
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: center;
+                    }
                 } 
             }   
         }
