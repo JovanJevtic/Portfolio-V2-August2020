@@ -3467,7 +3467,6 @@
     height: 1700px;
     width: 100%;
     background: #fafafa;
-    display: none;
   }
   .contact-container {
     height: 100%;
@@ -3935,205 +3934,344 @@
   }
 }
 
-.title {
-  -webkit-transform: translateY(20px) rotate(0.01deg);
-          transform: translateY(20px) rotate(0.01deg);
-  opacity: 0;
+@media screen and (min-width: 601px) {
+  .title {
+    -webkit-transform: translateY(20px) rotate(0.01deg);
+            transform: translateY(20px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .heading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .subheading {
+    -webkit-transform: translateY(40px) rotate(0.01deg);
+            transform: translateY(40px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .landing-btn-wrapp {
+    -webkit-transform: translateX(-50px) rotate(0.01deg);
+            transform: translateX(-50px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .about-heading {
+    -webkit-transform: translateX(50px) rotate(0.01deg);
+            transform: translateX(50px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .about-txt {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  #about-supply {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .about-skill {
+    -webkit-transform: translateX(-70px) rotate(0.01deg);
+            transform: translateX(-70px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .about-skill1 {
+    -webkit-transform: translateX(-250px) rotate(0.01deg);
+            transform: translateX(-250px) rotate(0.01deg);
+  }
+  .about-skill2 {
+    -webkit-transform: translateX(-200px) rotate(0.01deg);
+            transform: translateX(-200px) rotate(0.01deg);
+  }
+  .about-skill3 {
+    -webkit-transform: translateX(-150px) rotate(0.01deg);
+            transform: translateX(-150px) rotate(0.01deg);
+  }
+  .work-heading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .work-subheading {
+    -webkit-transform: translateY(50px) rotate(0.01deg);
+            transform: translateY(50px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .work-subheading-animated {
+    -webkit-transform: translateY(-10px) rotate(0.01deg);
+            transform: translateY(-10px) rotate(0.01deg);
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .work-card {
+    -webkit-transform: translateX(-100px) rotate(0.01deg);
+            transform: translateX(-100px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .work-card1 {
+    -webkit-transform: translateX(-200px) rotate(0.01deg);
+            transform: translateX(-200px) rotate(0.01deg);
+  }
+  .work-card2 {
+    -webkit-transform: translateX(-300px) rotate(0.01deg);
+            transform: translateX(-300px) rotate(0.01deg);
+  }
+  .work-card3 {
+    -webkit-transform: translateX(-400px) rotate(0.01deg);
+            transform: translateX(-400px) rotate(0.01deg);
+  }
+  .work-card4 {
+    -webkit-transform: translateX(200px) rotate(0.01deg);
+            transform: translateX(200px) rotate(0.01deg);
+  }
+  .work-card5 {
+    -webkit-transform: translateX(300px) rotate(0.01deg);
+            transform: translateX(300px) rotate(0.01deg);
+  }
+  .work-card6 {
+    -webkit-transform: translateX(400px) rotate(0.01deg);
+            transform: translateX(400px) rotate(0.01deg);
+  }
+  .process-heading, .process-intro, .process-heading2, .contact-btn {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process1-txt, .process1-heading2, .process1-txt2 {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process1-heading, .process3-heading, .process5-heading {
+    -webkit-transform: translateX(100px) rotate(0.01deg);
+            transform: translateX(100px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process2-heading, .process4-heading {
+    -webkit-transform: translateX(-100px) rotate(0.01deg);
+            transform: translateX(-100px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process2-txt {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process3-txt {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process4-txt {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process5-txt, .process5-subheading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .contact-info-heading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .contact-info-row-heading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .contact-info-row-link {
+    -webkit-transform: translateX(-30px) rotate(0.01deg);
+            transform: translateX(-30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .animated {
+    -webkit-transform: translateY(0px) rotate(0.01deg);
+            transform: translateY(0px) rotate(0.01deg);
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .animated-horizontal {
+    -webkit-transform: translateX(0px) rotate(0.01deg);
+            transform: translateX(0px) rotate(0.01deg);
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
 }
 
-.heading {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.subheading {
-  -webkit-transform: translateY(40px) rotate(0.01deg);
-          transform: translateY(40px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.landing-btn-wrapp {
-  -webkit-transform: translateX(-50px) rotate(0.01deg);
-          transform: translateX(-50px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.about-heading {
-  -webkit-transform: translateX(50px) rotate(0.01deg);
-          transform: translateX(50px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.about-txt {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-#about-supply {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.about-skill {
-  -webkit-transform: translateX(-70px) rotate(0.01deg);
-          transform: translateX(-70px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.about-skill1 {
-  -webkit-transform: translateX(-250px) rotate(0.01deg);
-          transform: translateX(-250px) rotate(0.01deg);
-}
-
-.about-skill2 {
-  -webkit-transform: translateX(-200px) rotate(0.01deg);
-          transform: translateX(-200px) rotate(0.01deg);
-}
-
-.about-skill3 {
-  -webkit-transform: translateX(-150px) rotate(0.01deg);
-          transform: translateX(-150px) rotate(0.01deg);
-}
-
-.work-heading {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.work-subheading {
-  -webkit-transform: translateY(50px) rotate(0.01deg);
-          transform: translateY(50px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.work-subheading-animated {
-  -webkit-transform: translateY(-10px) rotate(0.01deg);
-          transform: translateY(-10px) rotate(0.01deg);
-  opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.work-card {
-  -webkit-transform: translateX(-100px) rotate(0.01deg);
-          transform: translateX(-100px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.work-card1 {
-  -webkit-transform: translateX(-200px) rotate(0.01deg);
-          transform: translateX(-200px) rotate(0.01deg);
-}
-
-.work-card2 {
-  -webkit-transform: translateX(-300px) rotate(0.01deg);
-          transform: translateX(-300px) rotate(0.01deg);
-}
-
-.work-card3 {
-  -webkit-transform: translateX(-400px) rotate(0.01deg);
-          transform: translateX(-400px) rotate(0.01deg);
-}
-
-.work-card4 {
-  -webkit-transform: translateX(200px) rotate(0.01deg);
-          transform: translateX(200px) rotate(0.01deg);
-}
-
-.work-card5 {
-  -webkit-transform: translateX(300px) rotate(0.01deg);
-          transform: translateX(300px) rotate(0.01deg);
-}
-
-.work-card6 {
-  -webkit-transform: translateX(400px) rotate(0.01deg);
-          transform: translateX(400px) rotate(0.01deg);
-}
-
-.process-heading, .process-intro, .process-heading2, .contact-btn {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.process1-txt, .process1-heading2, .process1-txt2 {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.process1-heading, .process3-heading, .process5-heading {
-  -webkit-transform: translateX(100px) rotate(0.01deg);
-          transform: translateX(100px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.process2-heading, .process4-heading {
-  -webkit-transform: translateX(-100px) rotate(0.01deg);
-          transform: translateX(-100px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.process2-txt {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.process3-txt {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.process4-txt {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.process5-txt, .process5-subheading {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.contact-info-heading {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.contact-info-row-heading {
-  -webkit-transform: translateY(30px) rotate(0.01deg);
-          transform: translateY(30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.contact-info-row-link {
-  -webkit-transform: translateX(-30px) rotate(0.01deg);
-          transform: translateX(-30px) rotate(0.01deg);
-  opacity: 0;
-}
-
-.animated {
-  -webkit-transform: translateY(0px) rotate(0.01deg);
-          transform: translateY(0px) rotate(0.01deg);
-  opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.animated-horizontal {
-  -webkit-transform: translateX(0px) rotate(0.01deg);
-          transform: translateX(0px) rotate(0.01deg);
-  opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+@media screen and (max-width: 600px) {
+  .title {
+    -webkit-transform: translateY(20px) rotate(0.01deg);
+            transform: translateY(20px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .heading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .subheading {
+    -webkit-transform: translateY(40px) rotate(0.01deg);
+            transform: translateY(40px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .landing-btn-wrapp {
+    -webkit-transform: translateY(-50px) rotate(0.01deg);
+            transform: translateY(-50px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .about-heading {
+    -webkit-transform: translateY(50px) rotate(0.01deg);
+            transform: translateY(50px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .about-txt {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  #about-supply {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .about-skill {
+    -webkit-transform: translateY(-70px) rotate(0.01deg);
+            transform: translateY(-70px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .about-skill1 {
+    -webkit-transform: translateY(-250px) rotate(0.01deg);
+            transform: translateY(-250px) rotate(0.01deg);
+  }
+  .about-skill2 {
+    -webkit-transform: translateY(-200px) rotate(0.01deg);
+            transform: translateY(-200px) rotate(0.01deg);
+  }
+  .about-skill3 {
+    -webkit-transform: translateY(-150px) rotate(0.01deg);
+            transform: translateY(-150px) rotate(0.01deg);
+  }
+  .work-heading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .work-subheading {
+    -webkit-transform: translateY(50px) rotate(0.01deg);
+            transform: translateY(50px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .work-subheading-animated {
+    -webkit-transform: translateY(-10px) rotate(0.01deg);
+            transform: translateY(-10px) rotate(0.01deg);
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .work-card {
+    -webkit-transform: translateY(-100px) rotate(0.01deg);
+            transform: translateY(-100px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .work-card1 {
+    -webkit-transform: translateY(-200px) rotate(0.01deg);
+            transform: translateY(-200px) rotate(0.01deg);
+  }
+  .work-card2 {
+    -webkit-transform: translateY(-300px) rotate(0.01deg);
+            transform: translateY(-300px) rotate(0.01deg);
+  }
+  .work-card3 {
+    -webkit-transform: translateY(-400px) rotate(0.01deg);
+            transform: translateY(-400px) rotate(0.01deg);
+  }
+  .work-card4 {
+    -webkit-transform: translateY(200px) rotate(0.01deg);
+            transform: translateY(200px) rotate(0.01deg);
+  }
+  .work-card5 {
+    -webkit-transform: translateY(300px) rotate(0.01deg);
+            transform: translateY(300px) rotate(0.01deg);
+  }
+  .work-card6 {
+    -webkit-transform: translateY(400px) rotate(0.01deg);
+            transform: translateY(400px) rotate(0.01deg);
+  }
+  .process-heading, .process-intro, .process-heading2, .contact-btn {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process1-txt, .process1-heading2, .process1-txt2 {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process1-heading, .process3-heading, .process5-heading {
+    -webkit-transform: translateY(100px) rotate(0.01deg);
+            transform: translateY(100px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process2-heading, .process4-heading {
+    -webkit-transform: translateY(-100px) rotate(0.01deg);
+            transform: translateY(-100px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process2-txt {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process3-txt {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process4-txt {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .process5-txt, .process5-subheading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .contact-info-heading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .contact-info-row-heading {
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .contact-info-row-link {
+    -webkit-transform: translateY(-30px) rotate(0.01deg);
+            transform: translateY(-30px) rotate(0.01deg);
+    opacity: 0;
+  }
+  .animated {
+    -webkit-transform: translateY(0px) rotate(0.01deg);
+            transform: translateY(0px) rotate(0.01deg);
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .animated-horizontal {
+    -webkit-transform: translateY(0px) rotate(0.01deg);
+            transform: translateY(0px) rotate(0.01deg);
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
 }
 
 @media screen and (min-width: 1400px) {
