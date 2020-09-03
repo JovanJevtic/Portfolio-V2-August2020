@@ -3324,7 +3324,6 @@
     border: none;
     border: 1px solid #6d6969;
     resize: none;
-    text-transform: capitalize;
     height: 100px;
     resize: vertical;
   }
@@ -3569,6 +3568,151 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .contact-form-heading-wrapp {
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .contact-form-heading {
+    font-size: 36px;
+    text-align: center;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .contact-form-subheading {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .contact-form-container {
+    height: 550px;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .contact-form {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .input-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100px;
+    width: 300px;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .textarea-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 220px;
+    width: 300px;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer #name, #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer #mail {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #6d6969;
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer #name {
+    text-transform: capitalize;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer #name:focus, #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer #mail:focus {
+    border-bottom: 1px solid #fff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer input:focus, #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer button:focus {
+    outline: none;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer textarea {
+    color: #fff;
+    padding: 10px;
+    background: none;
+    border: none;
+    border: 1px solid #6d6969;
+    resize: none;
+    height: 100px;
+    resize: vertical;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .textarea-group > label {
+    margin-bottom: 10px;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer textarea:focus {
+    border: 1px solid #eee;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer input:required, #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer textarea:required {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .form-button-wrapp {
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #contact .contact-container .contact-content-wrapp .contact-container-wrapp .contact-form-wrapp .background-layer .form-button {
+    margin-top: 5px;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    background: #de0950;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
   }
 }
 

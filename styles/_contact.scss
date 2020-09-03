@@ -131,7 +131,6 @@
         border: none;
         border: 1px solid rgb(109, 105, 105);
         resize: none;
-        text-transform: capitalize;
         height: 100px;
         //border-radius: 10px;
         resize: vertical;
@@ -248,7 +247,7 @@
         height: 1500px;
         width: 100%;
         background: #fafafa;
-    
+
         .contact-container {
             height: 100%;
             width: 350px;
@@ -330,6 +329,129 @@
                             align-items: center;
                             color: #fff;
                             flex-direction: column;
+
+                            .contact-form-heading-wrapp {
+                                height: 200px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
+                            }
+                            
+                            .contact-form-heading {
+                                font-size: 36px;
+                                text-align: center;
+                            }
+                            
+                            .contact-form-subheading {
+                                font-weight: bold;
+                                font-size: 18px;
+                                margin-top: 10px;
+                            }
+                            
+                            .contact-form-container {
+                                height: 550px;
+                            }
+                            
+                            .contact-form {
+                                height: 100%;
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                flex-direction: column;
+                                justify-content: center;
+                            }
+                            
+                            .input-group {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                height: 100px;
+                                width: 300px;
+                            }   
+                            
+                            .textarea-group {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                height: 220px;
+                                width: 300px;
+                            }
+                            
+                            #name, #mail {
+                                border: none;
+                                background: none;
+                                border-bottom: 1px solid rgb(109, 105, 105);
+                                color: #fff;
+                                width: 100%;
+                                font-size: 20px;
+                                padding: 10px;
+                                text-align: center;
+                                font-family: 'Do Hyeon', sans-serif;
+                            }
+                            
+                            #name {
+                                text-transform: capitalize;
+                            }
+                             
+                            #name:focus, #mail:focus {
+                                border-bottom: 1px solid #fff;
+                                transition: 0.4s;
+                            }
+                            
+                            input:focus, button:focus {
+                                outline: none;
+                            }
+                            
+                            label {
+                                font-size: 18px;
+                                font-weight: bold;
+                            }
+                            
+                            textarea {
+                                color: #fff;
+                                padding: 10px;
+                                background: none;
+                                border: none;
+                                border: 1px solid rgb(109, 105, 105);
+                                resize: none;
+                                height: 100px;
+                                //border-radius: 10px;
+                                resize: vertical;
+                            }
+                            
+                            .textarea-group > label {
+                                margin-bottom: 10px;
+                            }
+                            
+                            textarea:focus {
+                                border: 1px solid #eee;
+                                transition: 0.4s;
+                            }
+                            
+                            input:required, textarea:required {
+                                box-shadow:none;
+                            }
+                            
+                            .form-button-wrapp {
+                                height: 150px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+                            }
+                            
+                            .form-button {
+                                margin-top: 5px;
+                                height: 50px;
+                                width: 200px;
+                                border-radius: 25px;
+                                border: none;
+                                background: $red;
+                                color: #fff;
+                                cursor: pointer;
+                                font-weight: bold;
+                                font-size: 18px;
+                            }
                         }
                     }
                 }
