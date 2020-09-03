@@ -4061,8 +4061,8 @@
     opacity: 0;
   }
   .landing-btn-wrapp {
-    -webkit-transform: translateY(-50px) rotate(0.01deg);
-            transform: translateY(-50px) rotate(0.01deg);
+    -webkit-transform: translateY(50px) rotate(0.01deg);
+            transform: translateY(50px) rotate(0.01deg);
     opacity: 0;
   }
   .about-heading {
@@ -4081,21 +4081,21 @@
     opacity: 0;
   }
   .about-skill {
-    -webkit-transform: translateY(-70px) rotate(0.01deg);
-            transform: translateY(-70px) rotate(0.01deg);
+    -webkit-transform: translateY(70px) rotate(0.01deg);
+            transform: translateY(70px) rotate(0.01deg);
     opacity: 0;
   }
   .about-skill1 {
-    -webkit-transform: translateY(-250px) rotate(0.01deg);
-            transform: translateY(-250px) rotate(0.01deg);
+    -webkit-transform: translateY(250px) rotate(0.01deg);
+            transform: translateY(250px) rotate(0.01deg);
   }
   .about-skill2 {
-    -webkit-transform: translateY(-200px) rotate(0.01deg);
-            transform: translateY(-200px) rotate(0.01deg);
+    -webkit-transform: translateY(200px) rotate(0.01deg);
+            transform: translateY(200px) rotate(0.01deg);
   }
   .about-skill3 {
-    -webkit-transform: translateY(-150px) rotate(0.01deg);
-            transform: translateY(-150px) rotate(0.01deg);
+    -webkit-transform: translateY(150px) rotate(0.01deg);
+            transform: translateY(150px) rotate(0.01deg);
   }
   .work-heading {
     -webkit-transform: translateY(30px) rotate(0.01deg);
@@ -4108,28 +4108,28 @@
     opacity: 0;
   }
   .work-subheading-animated {
-    -webkit-transform: translateY(-10px) rotate(0.01deg);
-            transform: translateY(-10px) rotate(0.01deg);
+    -webkit-transform: translateY(10px) rotate(0.01deg);
+            transform: translateY(10px) rotate(0.01deg);
     opacity: 1;
     -webkit-transition: 1s;
     transition: 1s;
   }
   .work-card {
-    -webkit-transform: translateY(-100px) rotate(0.01deg);
-            transform: translateY(-100px) rotate(0.01deg);
+    -webkit-transform: translateY(100px) rotate(0.01deg);
+            transform: translateY(100px) rotate(0.01deg);
     opacity: 0;
   }
   .work-card1 {
-    -webkit-transform: translateY(-200px) rotate(0.01deg);
-            transform: translateY(-200px) rotate(0.01deg);
+    -webkit-transform: translateY(200px) rotate(0.01deg);
+            transform: translateY(200px) rotate(0.01deg);
   }
   .work-card2 {
-    -webkit-transform: translateY(-300px) rotate(0.01deg);
-            transform: translateY(-300px) rotate(0.01deg);
+    -webkit-transform: translateY(300px) rotate(0.01deg);
+            transform: translateY(300px) rotate(0.01deg);
   }
   .work-card3 {
-    -webkit-transform: translateY(-400px) rotate(0.01deg);
-            transform: translateY(-400px) rotate(0.01deg);
+    -webkit-transform: translateY(400px) rotate(0.01deg);
+            transform: translateY(400px) rotate(0.01deg);
   }
   .work-card4 {
     -webkit-transform: translateY(200px) rotate(0.01deg);
@@ -4159,8 +4159,8 @@
     opacity: 0;
   }
   .process2-heading, .process4-heading {
-    -webkit-transform: translateY(-100px) rotate(0.01deg);
-            transform: translateY(-100px) rotate(0.01deg);
+    -webkit-transform: translateY(100px) rotate(0.01deg);
+            transform: translateY(100px) rotate(0.01deg);
     opacity: 0;
   }
   .process2-txt {
@@ -4194,8 +4194,8 @@
     opacity: 0;
   }
   .contact-info-row-link {
-    -webkit-transform: translateY(-30px) rotate(0.01deg);
-            transform: translateY(-30px) rotate(0.01deg);
+    -webkit-transform: translateY(30px) rotate(0.01deg);
+            transform: translateY(30px) rotate(0.01deg);
     opacity: 0;
   }
   .animated {

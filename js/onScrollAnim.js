@@ -43,7 +43,7 @@ export default function animate () {
         const workCards = document.querySelectorAll('.work-card')
 
         workCards.forEach(workCard => {
-            let workCardPosition = workCard.getBoundingClientRect().bottom;
+            let workCardPosition = workCard.getBoundingClientRect().top;
             if (workCardPosition < screenPosition) {
                 workCard.classList.add('animated-horizontal')
             }
