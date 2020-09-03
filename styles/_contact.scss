@@ -317,17 +317,17 @@
                         width: 100%;
                         align-items: center;
                         height: 100%;
-                        background: url('../assets/photo-1589561253898-768105ca91a8.jpg');
+                        //background: url('../assets/photo-1589561253898-768105ca91a8.jpg');
                         background-size: cover;
                         background-position: center;
 
                         .background-layer {
                             height: 100%;
                             width: 100%;
-                            background: rgba(0, 0, 0, 0.93);
+                            //background: rgba(0, 0, 0, 0.93);
                             display: flex;
                             align-items: center;
-                            color: #fff;
+                            //color: #fff;
                             flex-direction: column;
 
                             .contact-form-heading-wrapp {
@@ -437,11 +437,11 @@
                                 height: 150px;
                                 display: flex;
                                 justify-content: center;
-                                align-items: flex-start;
+                                align-items: center;
                             }
                             
                             .form-button {
-                                margin-top: 5px;
+                                margin-top: -25px;
                                 height: 50px;
                                 width: 200px;
                                 border-radius: 25px;
