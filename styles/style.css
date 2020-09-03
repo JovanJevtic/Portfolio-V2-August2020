@@ -3470,10 +3470,9 @@
   }
   .contact-container {
     height: 100%;
-    background: red;
   }
   .contact-content-wrapp {
-    height: 80vh;
+    background: red;
     min-height: 800px;
     width: 100%;
     display: -webkit-box;
@@ -3673,7 +3672,6 @@
   }
   .contact-info-container {
     height: 100%;
-    width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3763,13 +3761,10 @@
   .contact-container-wrapp {
     height: 100%;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
   }
 }
 
