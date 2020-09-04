@@ -100,14 +100,14 @@
     } 
     
     .work-card2 {
-        background: url('../assets/web1.jpg');
+        background: url('../assets/bookkeeping-desktop.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     } 
     
     .work-card3 {
-        background: url('../assets/web2.jpg');
+        background: url('../assets/bookkeeping-mobile.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -121,7 +121,7 @@
     } 
     
     .work-card5 {
-        background: url('../assets/Annotation\ 2020-08-14\ 010833.png');
+        background: url('../assets/grocery.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -240,7 +240,7 @@
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1399px) {
     #work {
         height: 2800px;
         width: 100%;
@@ -300,14 +300,14 @@
                         } 
                         
                         .work-card2 {
-                            background: url('../assets/web1.jpg');
+                            background: url('../assets/bookkeeping-desktop.png');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: cover;
                         } 
                         
                         .work-card3 {
-                            background: url('../assets/web2.jpg');
+                            background: url('../assets/bookkeeping-mobile.png');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: cover;
@@ -321,7 +321,7 @@
                         } 
                         
                         .work-card5 {
-                            background: url('../assets/Annotation\ 2020-08-14\ 010833.png');
+                            background: url('../assets/grocery.png');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: cover;
